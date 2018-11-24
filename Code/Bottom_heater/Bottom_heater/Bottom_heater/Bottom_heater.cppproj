@@ -90,6 +90,9 @@
       <Value>..\include\libraries\LiquidCrystal\src</Value>
       <Value>..\include\libraries\MAX6675</Value>
       <Value>..\include\libraries\AutoPID</Value>
+      <Value>..\include\libraries\Wire\src</Value>
+      <Value>..\include\libraries\Wire\src\utility</Value>
+      <Value>..\include\libraries\EEPROM\src</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
@@ -123,6 +126,9 @@
       <Value>..\include\libraries\LiquidCrystal\src</Value>
       <Value>..\include\libraries\MAX6675</Value>
       <Value>..\include\libraries\AutoPID</Value>
+      <Value>..\include\libraries\Wire\src</Value>
+      <Value>..\include\libraries\Wire\src\utility</Value>
+      <Value>..\include\libraries\EEPROM\src</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize for size (-Os)</avrgcccpp.compiler.optimization.level>
@@ -177,10 +183,14 @@
       <Value>..\include\libraries\LiquidCrystal\examples\CustomCharacter\__vm</Value>
       <Value>..\include\libraries\LiquidCrystal\examples\Display\Release</Value>
       <Value>..\include\libraries\LiquidCrystal\examples\Display\__vm</Value>
-      <Value>..\include\libraries\LiquidCrystal\src</Value>
+      <Value>../include/libraries/LiquidCrystal_I2C/src</Value>
       <Value>..\include\libraries\MAX6675</Value>
       <Value>../include/libraries/CyberLib</Value>
       <Value>..\include\libraries\AutoPID</Value>
+      <Value>../include/libraries/Wire/src</Value>
+      <Value>..\include\libraries\Wire\src</Value>
+      <Value>..\include\libraries\Wire\src\utility</Value>
+      <Value>..\include\libraries\EEPROM\src</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
@@ -211,10 +221,13 @@
       <Value>..\include\libraries\LiquidCrystal\examples\CustomCharacter\__vm</Value>
       <Value>..\include\libraries\LiquidCrystal\examples\Display\Release</Value>
       <Value>..\include\libraries\LiquidCrystal\examples\Display\__vm</Value>
-      <Value>..\include\libraries\LiquidCrystal\src</Value>
+      <Value>../include/libraries/LiquidCrystal_I2C/src</Value>
       <Value>..\include\libraries\MAX6675</Value>
       <Value>../include/libraries/CyberLib</Value>
       <Value>..\include\libraries\AutoPID</Value>
+      <Value>..\include\libraries\Wire\src</Value>
+      <Value>..\include\libraries\Wire\src\utility</Value>
+      <Value>..\include\libraries\EEPROM\src</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize for size (-Os)</avrgcccpp.compiler.optimization.level>
@@ -242,25 +255,43 @@
     </PreBuildEvent>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Dimmer\Dimmer.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Dimmer\Dimmer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Dimmer\DimmerItem.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Dimmer\DimmerItem.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Display\Display16x2.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Display\Display16x2.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="include\libraries\AutoPID\AutoPID.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="include\libraries\CyberLib\CyberLib.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="include\libraries\LiquidCrystal\examples\Blink\__vm\.Blink.vsarduino.h">
+    <Compile Include="include\libraries\EEPROM\src\EEPROM.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="include\libraries\LiquidCrystal\examples\CustomCharacter\__vm\.CustomCharacter.vsarduino.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="include\libraries\LiquidCrystal\examples\Display\__vm\.Display.vsarduino.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="include\libraries\LiquidCrystal\src\LiquidCrystal.h">
+    <Compile Include="include\libraries\LiquidCrystal_I2C\src\LiquidCrystal_I2C.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="include\libraries\MAX6675\max6675.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="include\libraries\Wire\src\utility\twi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="include\libraries\Wire\src\Wire.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Sketch.cpp">
@@ -272,16 +303,22 @@
     <Compile Include="src\libraries\CyberLib\CyberLib.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\libraries\LiquidCrystal\src\LiquidCrystal.cpp">
+    <Compile Include="src\libraries\LiquidCrystal_I2C\src\LiquidCrystal_I2C.cpp">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\libraries\MAX6675\max6675.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Thermometer.cpp">
+    <Compile Include="src\libraries\Wire\src\utility\twi.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Thermometer.h">
+    <Compile Include="src\libraries\Wire\src\Wire.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Thermometer\Thermometer.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Thermometer\Thermometer.h">
       <SubType>compile</SubType>
     </Compile>
     <Content Include="readme.html">
@@ -295,42 +332,31 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Display\" />
     <Folder Include="include\" />
     <Folder Include="include\libraries\" />
     <Folder Include="include\libraries\AutoPID\" />
     <Folder Include="include\libraries\CyberLib\" />
-    <Folder Include="include\libraries\LiquidCrystal\" />
-    <Folder Include="include\libraries\LiquidCrystal\examples\" />
-    <Folder Include="include\libraries\LiquidCrystal\examples\Blink\" />
-    <Folder Include="include\libraries\LiquidCrystal\examples\Blink\__vm\" />
-    <Folder Include="include\libraries\LiquidCrystal\examples\CustomCharacter\" />
-    <Folder Include="include\libraries\LiquidCrystal\examples\CustomCharacter\__vm\" />
-    <Folder Include="include\libraries\LiquidCrystal\examples\Display\" />
-    <Folder Include="include\libraries\LiquidCrystal\examples\Display\Release\" />
-    <Folder Include="include\libraries\LiquidCrystal\examples\Display\__vm\" />
-    <Folder Include="include\libraries\LiquidCrystal\src\" />
+    <Folder Include="include\libraries\EEPROM\" />
+    <Folder Include="include\libraries\EEPROM\src\" />
+    <Folder Include="include\libraries\LiquidCrystal_I2C\" />
+    <Folder Include="include\libraries\LiquidCrystal_I2C\src\" />
     <Folder Include="include\libraries\MAX6675\" />
+    <Folder Include="Dimmer" />
+    <Folder Include="include\libraries\Wire\" />
+    <Folder Include="include\libraries\Wire\src\" />
+    <Folder Include="include\libraries\Wire\src\utility\" />
+    <Folder Include="src\libraries\CyberLib\" />
+    <Folder Include="src\libraries\LiquidCrystal_I2C\" />
+    <Folder Include="src\libraries\LiquidCrystal_I2C\src\" />
+    <Folder Include="src\libraries\Wire\" />
+    <Folder Include="src\libraries\Wire\src\" />
+    <Folder Include="src\libraries\Wire\src\utility\" />
+    <Folder Include="Thermometer" />
     <Folder Include="src\" />
     <Folder Include="src\libraries\" />
     <Folder Include="src\libraries\AutoPID\" />
-    <Folder Include="src\libraries\CyberLib\" />
-    <Folder Include="src\libraries\LiquidCrystal\" />
-    <Folder Include="src\libraries\LiquidCrystal\src\" />
     <Folder Include="src\libraries\MAX6675\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="include\libraries\LiquidCrystal\examples\Display\Release\Display.hex">
-      <SubType>compile</SubType>
-    </None>
-    <None Include="include\libraries\LiquidCrystal\examples\Display\Release\Display.ino.hex">
-      <SubType>compile</SubType>
-    </None>
-    <None Include="include\libraries\LiquidCrystal\examples\Display\Release\Display.ino.with_bootloader.hex">
-      <SubType>compile</SubType>
-    </None>
-    <None Include="include\libraries\LiquidCrystal\examples\Display\Release\Display.with_bootloader.hex">
-      <SubType>compile</SubType>
-    </None>
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>

@@ -35,8 +35,12 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/pins_arduino.h \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h \
- ../include/libraries/CyberLib/CyberLib.h \
- c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h
+ ..\include\libraries\AutoPID/AutoPID.h \
+ ..\include\libraries\EEPROM\src/EEPROM.h .././Dimmer/Dimmer.h \
+ .././Dimmer/DimmerItem.h .././Thermometer/Thermometer.h \
+ ..\include\libraries\MAX6675/max6675.h .././Display/Display16x2.h \
+ ../include/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.h \
+ ..\\..\ArduinoCore\include\core/Print.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -110,6 +114,20 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h:
 
-../include/libraries/CyberLib/CyberLib.h:
+..\include\libraries\AutoPID/AutoPID.h:
 
-c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h:
+..\include\libraries\EEPROM\src/EEPROM.h:
+
+.././Dimmer/Dimmer.h:
+
+.././Dimmer/DimmerItem.h:
+
+.././Thermometer/Thermometer.h:
+
+..\include\libraries\MAX6675/max6675.h:
+
+.././Display/Display16x2.h:
+
+../include/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.h:
+
+..\\..\ArduinoCore\include\core/Print.h:
