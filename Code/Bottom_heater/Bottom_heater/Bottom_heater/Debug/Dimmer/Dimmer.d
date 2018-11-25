@@ -35,9 +35,8 @@ Dimmer/Dimmer.d Dimmer/Dimmer.o: ../Dimmer/Dimmer.cpp \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/pins_arduino.h \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h \
- ../include/libraries/CyberLib/CyberLib.h \
- c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h \
- ../Dimmer/Dimmer.h ../Dimmer/DimmerItem.h
+ ../include/libraries/SimpleTimer/src/SimpleTimer.h ../Dimmer/Dimmer.h \
+ ../Dimmer/DimmerItem.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -111,9 +110,7 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h:
 
-../include/libraries/CyberLib/CyberLib.h:
-
-c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h:
+../include/libraries/SimpleTimer/src/SimpleTimer.h:
 
 ../Dimmer/Dimmer.h:
 

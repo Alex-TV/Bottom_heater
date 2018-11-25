@@ -20,10 +20,12 @@ class Display16x2
 	LiquidCrystal_I2C*  _lcd;
 	//functions
 	public:
-	Display16x2(int,int,int);
+	Display16x2(LiquidCrystal_I2C*);
 	void PrintLineValues(int,int,int, int);
-	void PrintEdit(int);
+	void PrintEditInt(int);
+	void PrintEditBool(bool);
 	void ClearEdit(int);
+	void Clear();
 	~Display16x2();
 	protected:
 	private:

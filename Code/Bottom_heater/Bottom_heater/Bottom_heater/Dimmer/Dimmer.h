@@ -5,6 +5,7 @@
 * Author: koval
 */
 #include "DimmerItem.h"
+#define timerInterval 40
 
 #ifndef __DIMMER_H__
 #define __DIMMER_H__
@@ -20,11 +21,11 @@ class Dimmer
 	Dimmer(int, DimmerItem*, int*);
 	~Dimmer();
 	void UpdateItemValue(int*);
+	void Update();
 	protected:
 	private:
 	Dimmer( const Dimmer &c );
 	Dimmer& operator=( const Dimmer &c );
-
 }; //Dimmer
 
 #endif //__DIMMER_H__

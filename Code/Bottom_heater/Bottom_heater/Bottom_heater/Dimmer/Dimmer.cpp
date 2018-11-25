@@ -6,18 +6,19 @@
 */
 
 #include <Arduino.h>
-#include <CyberLib.h> // шустрая библиотека для таймера
+#include <SimpleTimer.h>
 #include "Dimmer.h"
 
-void  DetectUp();
+void DetectUp();
+void DetectDown();
 void TimerInterrupt();
-void  DetectDown();
 
 int _zeroPin;
 DimmerItem* _items;
+SimpleTimer* _timer;
 int* _itemValues;
 int _tic;
-
+int _timerId;
 // default constructor
 Dimmer::Dimmer(int zeroPin, DimmerItem* items, int* itemValues)
 {
@@ -26,18 +27,27 @@ Dimmer::Dimmer(int zeroPin, DimmerItem* items, int* itemValues)
 	_zeroPin = zeroPin;
 	pinMode(zeroPin, INPUT);				// настраиваем порт на вход для отслеживания прохождения сигнала через ноль
 	attachInterrupt(0, DetectUp, FALLING);  // настроить срабатывание прерывания interrupt0 на pin 2 на низкий уровень
-	StartTimer1(TimerInterrupt, 40);        // время для одного разряда ШИМ
-	StopTimer1();                           // остановить таймер
+	_timer = new SimpleTimer();
+	_timerId = _timer->setInterval(timerInterval,TimerInterrupt);
+	_timer->disable(_timerId);
+	//StartTimer1(TimerInterrupt, 40);        // время для одного разряда ШИМ
+	//StopTimer1();                           // остановить таймер
 } //Dimmer
+
 
 void Dimmer::UpdateItemValue(int* itemValues)
 {
 	_itemValues = itemValues;
 }
 
+void Dimmer::Update()
+{
+	_timer->run();
+}
+
 //----------------------ОБРАБОТЧИКИ ПРЕРЫВАНИЙ--------------------------
-void TimerInterrupt()
-{       // прерывания таймера срабатывают каждые 40 мкс
+void TimerInterrupt() // прерывания таймера срабатывают каждые 40 мкс
+{
 	_tic++;                       // счетчик
 	for(int i=0; i< sizeof(_items); i++)
 	{	 if (_tic <= _itemValues[i]) continue;	    // если настало время включать ток
@@ -46,17 +56,20 @@ void TimerInterrupt()
 	//digitalWrite(dimPin, 1);   // врубить ток
 }
 
-void  DetectUp()	 // обработка внешнего прерывания на пересекание нуля снизу
+void DetectUp()	 // обработка внешнего прерывания на пересекание нуля снизу
 {
 	_tic = 0;                                 // обнулить счетчик
-	ResumeTimer1();                          // перезапустить таймер
+	_timer->enable(_timerId);
+	_timer->restartTimer(_timerId); // перезапустить таймер
+	//ResumeTimer1();
 	attachInterrupt(0, DetectDown, RISING);  // перенастроить прерывание
 }
 
 void  DetectDown() // обработка внешнего прерывания на пересекание нуля сверху
 {
 	_tic = 0;                                 // обнулить счетчик
-	StopTimer1(); 							 // остановить таймер
+	_timer->disable(_timerId);// остановить таймерd
+	//StopTimer1();
 	for(int i=0; i< sizeof(_items); i++)
 	{
 		_items[i].UpdateValue(0);  // вырубить ток

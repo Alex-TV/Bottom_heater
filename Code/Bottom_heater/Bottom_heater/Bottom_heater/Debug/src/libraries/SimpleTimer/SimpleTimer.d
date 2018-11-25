@@ -1,4 +1,7 @@
-Display/Display16x2.d Display/Display16x2.o: ../Display/Display16x2.cpp \
+src/libraries/SimpleTimer/SimpleTimer.d \
+ src/libraries/SimpleTimer/SimpleTimer.o: \
+ ../src/libraries/SimpleTimer/SimpleTimer.cpp \
+ ../include/libraries/SimpleTimer/src/SimpleTimer.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
@@ -34,9 +37,9 @@ Display/Display16x2.d Display/Display16x2.o: ../Display/Display16x2.cpp \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/pins_arduino.h \
- ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h \
- ../include/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.h \
- ..\\..\ArduinoCore\include\core/Print.h ../Display/Display16x2.h
+ ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h
+
+../include/libraries/SimpleTimer/src/SimpleTimer.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -109,9 +112,3 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 ..\\..\ArduinoCore\include\variants\eightanaloginputs/pins_arduino.h:
 
 ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h:
-
-../include/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.h:
-
-..\\..\ArduinoCore\include\core/Print.h:
-
-../Display/Display16x2.h:

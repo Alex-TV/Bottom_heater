@@ -5,14 +5,16 @@
 * Author: koval
 */
 #include <Arduino.h>
+#include <LiquidCrystal_I2C.h>
 #include "Display16x2.h"
 
 // default constructor
-Display16x2:: Display16x2(int adress, int col, int row)
+Display16x2:: Display16x2(LiquidCrystal_I2C* lcd)
 {
-	_lcd = new LiquidCrystal_I2C(adress, col, row);
-	_lcd->begin();
-	_lcd->clear();
+	//_lcd = new LiquidCrystal_I2C(adress, col, row);
+	//_lcd->begin();
+	//_lcd->clear();
+	_lcd = lcd;
 }
 
 void Display16x2::PrintLineValues(int line, int setTemp, int curTemp, int power)
@@ -33,10 +35,16 @@ void Display16x2::PrintLineValues(int line, int setTemp, int curTemp, int power)
 	_lcd->print("%");
 }
 
-void Display16x2::PrintEdit(int line)
+void Display16x2::PrintEditInt(int val)
 {
-	_lcd->setCursor(0,line);
-	_lcd->print(">");
+	_lcd->setCursor(0,1);
+	_lcd->print(val);
+}
+
+void  Display16x2::PrintEditBool(bool val)
+{
+	_lcd->setCursor(0,1);
+	_lcd->print(val?"TRUE":"FALSE");
 }
 
 void Display16x2::ClearEdit(int line)
@@ -44,7 +52,10 @@ void Display16x2::ClearEdit(int line)
 	_lcd->setCursor(0,0);
 	_lcd->print(" ");
 }
-
+void  Display16x2::Clear()
+{
+	_lcd->clear();
+}
 // default destructor
 Display16x2::~Display16x2()
 {

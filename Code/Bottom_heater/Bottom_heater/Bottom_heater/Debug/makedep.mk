@@ -12,11 +12,15 @@ Sketch.cpp
 
 src\libraries\AutoPID\AutoPID.cpp
 
-src\libraries\CyberLib\CyberLib.cpp
-
 src\libraries\LiquidCrystal_I2C\src\LiquidCrystal_I2C.cpp
 
 src\libraries\MAX6675\max6675.cpp
+
+src\libraries\MyMenu\MyMenu.cpp
+
+src\libraries\RotaryEncoder\RotaryEncoder.cpp
+
+src\libraries\SimpleTimer\SimpleTimer.cpp
 
 src\libraries\Wire\src\utility\twi.c
 
