@@ -46,26 +46,26 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
                               Sketch.o (__mulsf3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5/crtatmega328p.o (main)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
                               Dimmer/Dimmer.o (_Znwj)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                               src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o (_ZN5Print5writeEPKhj)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
                               Dimmer/Dimmer.o (attachInterrupt)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                               src/libraries/AutoPID/AutoPID.o (millis)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                               Dimmer/Dimmer.o (pinMode)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                               src/libraries/MyMenu/MyMenu.o (_ZN6StringD2Ev)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
-R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o) (yield)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
+D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o) (yield)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__unordsf2)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__unordsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
                               src/libraries/MyMenu/MyMenu.o (__divmodhi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
@@ -85,63 +85,63 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o) (__tablejump2__)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (dtostrf)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (dtostrf)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o) (malloc)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o) (malloc)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (realloc)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (realloc)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o) (abort)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o) (abort)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atof.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (atof)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (atof)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (atol)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (atol)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (isspace)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (isspace)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (tolower)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (tolower)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (toupper)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (toupper)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcpy_P)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcpy_P)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__strlen_P)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__strlen_P)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (memcpy)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (memcpy)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (memmove)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (memmove)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strchr)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strchr)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcmp.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcmp)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcmp)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcpy)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcpy)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncmp.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strncmp)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strncmp)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncpy.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strncpy)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strncpy)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrchr.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strrchr)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strrchr)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strstr.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strstr)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strstr)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__itoa)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__itoa)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__itoa_ncheck)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__itoa_ncheck)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ltoa)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ltoa)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa_ncheck.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ltoa_ncheck)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ltoa_ncheck)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o) (__mulsi_const_10)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ultoa)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ultoa)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ultoa_ncheck)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ultoa_ncheck)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__utoa)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__utoa)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
-                              R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__utoa_ncheck)
+                              D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__utoa_ncheck)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o) (dtoa_prf)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
@@ -191,11 +191,25 @@ Discarded input sections
  .text          0x00000000        0x0 Display/Display16x2.o
  .data          0x00000000        0x0 Display/Display16x2.o
  .bss           0x00000000        0x0 Display/Display16x2.o
+ .text._ZN11Display16x212PrintEditIntEi
+                0x00000000       0x2e Display/Display16x2.o
+ .text._ZN11Display16x213PrintEditBoolEb
+                0x00000000       0x32 Display/Display16x2.o
+ .text._ZN11Display16x25ClearEv
+                0x00000000        0xa Display/Display16x2.o
  .text._ZN11Display16x2D2Ev
                 0x00000000        0x2 Display/Display16x2.o
  .text          0x00000000        0x0 Sketch.o
  .data          0x00000000        0x0 Sketch.o
  .bss           0x00000000        0x0 Sketch.o
+ .text._Z20SaveSettingsInEepromv
+                0x00000000       0x5a Sketch.o
+ .text._Z13UpdateTempValRdi
+                0x00000000       0x76 Sketch.o
+ .text._Z15CreateMenuItemsv
+                0x00000000      0x146 Sketch.o
+ .bss._curMenuIndex
+                0x00000000        0x2 Sketch.o
  .text          0x00000000        0x0 src/libraries/AutoPID/AutoPID.o
  .data          0x00000000        0x0 src/libraries/AutoPID/AutoPID.o
  .bss           0x00000000        0x0 src/libraries/AutoPID/AutoPID.o
@@ -273,12 +287,18 @@ Discarded input sections
  .bss           0x00000000        0x0 src/libraries/MyMenu/MyMenu.o
  .text._ZN4MItm7addParsEii6String
                 0x00000000       0x12 src/libraries/MyMenu/MyMenu.o
+ .text._ZN4Menu6goDownEv
+                0x00000000       0x5a src/libraries/MyMenu/MyMenu.o
+ .text._ZN4Menu4goUpEv
+                0x00000000       0xc0 src/libraries/MyMenu/MyMenu.o
+ .text._ZN4Menu5goSubEi
+                0x00000000       0x60 src/libraries/MyMenu/MyMenu.o
+ .text._ZN4Menu6goBackEv
+                0x00000000       0x2a src/libraries/MyMenu/MyMenu.o
  .text._ZN4Menu6goItemEi
                 0x00000000       0xf4 src/libraries/MyMenu/MyMenu.o
  .text._ZN4Menu6goLastEv
                 0x00000000        0xa src/libraries/MyMenu/MyMenu.o
- .text._ZN4Menu6goMainEv
-                0x00000000        0xe src/libraries/MyMenu/MyMenu.o
  .bss.back_id   0x00000000        0x2 src/libraries/MyMenu/MyMenu.o
  .bss.sub_id    0x00000000        0x2 src/libraries/MyMenu/MyMenu.o
  .bss.second    0x00000000        0x2 src/libraries/MyMenu/MyMenu.o
@@ -430,249 +450,249 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .text.atexit   0x00000000        0x6 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .text.atexit   0x00000000        0x6 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
  .text._Z8setupUSBv
-                0x00000000        0x2 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .text._Znaj    0x00000000        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .text._ZdlPv   0x00000000        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .text._ZdaPv   0x00000000        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .group         0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .group         0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .group         0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .group         0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x2 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .text._Znaj    0x00000000        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .text._ZdlPv   0x00000000        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .text._ZdaPv   0x00000000        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .group         0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print17availableForWriteEv
-                0x00000000        0x6 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x6 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5flushEv
-                0x00000000        0x2 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x2 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEPK19__FlashStringHelper
-                0x00000000       0x48 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x48 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK9Printable
-                0x00000000       0x14 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x14 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .rodata.str1.1
-                0x00000000        0xf R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0xf D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEv
-                0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEPK19__FlashStringHelper
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK6String
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEPKc
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEc
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK9Printable
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEmi
-                0x00000000       0x1a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x1a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEhi
-                0x00000000        0xe R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0xe D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEhi
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEji
-                0x00000000        0xc R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0xc D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEji
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEmi
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEii
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEli
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print10printFloatEdh
-                0x00000000      0x1b6 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000      0x1b6 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEdi
-                0x00000000        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEdi
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV5Print
-                0x00000000        0xc R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00000000        0xc D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
  .text.detachInterrupt
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .group         0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .group         0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String14StringIfHelperEv
-                0x00000000        0x2 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0x2 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String4copyEPK19__FlashStringHelperj
-                0x00000000       0x42 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x42 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String4moveERS_
-                0x00000000       0x7a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x7a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2EOS_
-                0x00000000       0x12 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x12 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2EO15StringSumHelper
-                0x00000000       0x12 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x12 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringaSEOS_
-                0x00000000       0x18 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x18 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringaSEO15StringSumHelper
-                0x00000000       0x18 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x18 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2Ec
-                0x00000000       0x30 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x30 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2Ehh
-                0x00000000       0x5a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x5a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2Eih
-                0x00000000       0x58 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x58 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2Ejh
-                0x00000000       0x58 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x58 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2Elh
-                0x00000000       0x5a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x5a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2Emh
-                0x00000000       0x5a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x5a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2Efh
-                0x00000000       0x60 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x60 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2Edh
-                0x00000000       0x60 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x60 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringaSEPK19__FlashStringHelper
-                0x00000000       0x34 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x34 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringC2EPK19__FlashStringHelper
-                0x00000000       0x12 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x12 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatERKS_
-                0x00000000        0xe R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0xe D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEPKc
-                0x00000000       0x1e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEc
-                0x00000000       0x26 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x26 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEh
-                0x00000000       0x56 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x56 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEi
-                0x00000000       0x60 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x60 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEj
-                0x00000000       0x60 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x60 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEl
-                0x00000000       0x62 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x62 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEm
-                0x00000000       0x62 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x62 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEf
-                0x00000000       0x62 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x62 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEd
-                0x00000000       0x62 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x62 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6concatEPK19__FlashStringHelper
-                0x00000000       0x60 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x60 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperc
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperh
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperi
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperj
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperl
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperm
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperf
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperd
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZplRK15StringSumHelperPK19__FlashStringHelper
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String9compareToERKS_
-                0x00000000       0x60 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x60 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String6equalsERKS_
-                0x00000000       0x22 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x22 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String6equalsEPKc
-                0x00000000       0x3e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x3e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6StringltERKS_
-                0x00000000        0xe R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0xe D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6StringgtERKS_
-                0x00000000       0x12 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x12 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6StringleERKS_
-                0x00000000       0x12 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x12 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6StringgeERKS_
-                0x00000000       0x10 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x10 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String16equalsIgnoreCaseERKS_
-                0x00000000       0x66 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x66 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String10startsWithERKS_j
-                0x00000000       0x4c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x4c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String10startsWithERKS_
-                0x00000000       0x1e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String8endsWithERKS_
-                0x00000000       0x40 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x40 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String9setCharAtEjc
-                0x00000000       0x1a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringixEj
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6StringixEj
-                0x00000000       0x22 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x22 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String6charAtEj
-                0x00000000        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String8getBytesEPhjj
-                0x00000000       0x5e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x5e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String7indexOfEcj
-                0x00000000       0x34 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x34 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String7indexOfEc
-                0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String7indexOfERKS_j
-                0x00000000       0x3a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x3a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String7indexOfERKS_
-                0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String11lastIndexOfEcj
-                0x00000000       0x6a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x6a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String11lastIndexOfEc
-                0x00000000        0xe R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0xe D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String11lastIndexOfERKS_j
-                0x00000000       0x9c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x9c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String11lastIndexOfERKS_
-                0x00000000       0x14 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x14 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String7replaceEcc
-                0x00000000       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String7replaceERKS_S1_
-                0x00000000      0x1f4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000      0x1f4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6removeEjj
-                0x00000000       0x66 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x66 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String6removeEj
-                0x00000000        0x8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0x8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String11toLowerCaseEv
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String11toUpperCaseEv
-                0x00000000       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6String4trimEv
-                0x00000000       0xb8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0xb8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String5toIntEv
-                0x00000000       0x16 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x16 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String8toDoubleEv
-                0x00000000       0x16 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000       0x16 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String7toFloatEv
-                0x00000000        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000000        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .bss._ZZN6StringixEjE19dummy_writable_char
-                0x00000000        0x1 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x00000000        0x1 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
  .text.__cxa_pure_virtual
-                0x00000000        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x00000000        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
  .text.__cxa_deleted_virtual
-                0x00000000        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_info    0x00000000       0x76 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_abbrev  0x00000000       0x6d R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x00000000        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_info    0x00000000       0x76 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00000000       0x6d D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
  .debug_aranges
-                0x00000000       0x20 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_ranges  0x00000000       0x10 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_line    0x00000000       0xa9 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_str     0x00000000      0x1a4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .comment       0x00000000       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_frame   0x00000000       0x34 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .text          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .data          0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .bss           0x00000000        0x0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00000000       0x20 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_ranges  0x00000000       0x10 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_line    0x00000000       0xa9 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_str     0x00000000      0x1a4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .comment       0x00000000       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_frame   0x00000000       0x34 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .text          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .data          0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .bss           0x00000000        0x0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
@@ -997,6 +1017,13 @@ Discarded input sections
  .text          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
  .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
  .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .text.avr-libc
+                0x00000000       0x1c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_line    0x00000000       0x9e C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_info    0x00000000       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_abbrev  0x00000000       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_aranges
+                0x00000000       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
@@ -1089,7 +1116,7 @@ LOAD src/libraries/Wire/src/Wire.o
 LOAD Thermometer/Thermometer.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
-LOAD R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a
+LOAD D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a
 END GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
@@ -1197,7 +1224,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x3b72
+.text           0x00000000     0x37be
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -1214,22 +1241,22 @@ END GROUP
  *libc.a:*(.progmem.data)
  *(.progmem*)
  .progmem.data.digital_pin_to_timer_PGM
-                0x00000068       0x14 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000068       0x14 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                 0x00000068                digital_pin_to_timer_PGM
  .progmem.data.digital_pin_to_bit_mask_PGM
-                0x0000007c       0x14 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000007c       0x14 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                 0x0000007c                digital_pin_to_bit_mask_PGM
  .progmem.data.digital_pin_to_port_PGM
-                0x00000090       0x14 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000090       0x14 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                 0x00000090                digital_pin_to_port_PGM
  .progmem.data.port_to_input_PGM
-                0x000000a4        0xa R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000a4        0xa D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                 0x000000a4                port_to_input_PGM
  .progmem.data.port_to_output_PGM
-                0x000000ae        0xa R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000ae        0xa D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                 0x000000ae                port_to_output_PGM
  .progmem.data.port_to_mode_PGM
-                0x000000b8        0xa R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000b8        0xa D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                 0x000000b8                port_to_mode_PGM
                 0x000000c2                . = ALIGN (0x2)
  *(.jumptables)
@@ -1340,500 +1367,469 @@ END GROUP
  .text._ZN11Display16x215PrintLineValuesEiiii
                 0x00000288       0xea Display/Display16x2.o
                 0x00000288                _ZN11Display16x215PrintLineValuesEiiii
- .text._ZN11Display16x212PrintEditIntEi
-                0x00000372       0x2e Display/Display16x2.o
-                0x00000372                _ZN11Display16x212PrintEditIntEi
- .text._ZN11Display16x213PrintEditBoolEb
-                0x000003a0       0x32 Display/Display16x2.o
-                0x000003a0                _ZN11Display16x213PrintEditBoolEb
  .text._ZN11Display16x29ClearEditEi
-                0x000003d2       0x22 Display/Display16x2.o
-                0x000003d2                _ZN11Display16x29ClearEditEi
- .text._ZN11Display16x25ClearEv
-                0x000003f4        0xa Display/Display16x2.o
-                0x000003f4                _ZN11Display16x25ClearEv
+                0x00000372       0x22 Display/Display16x2.o
+                0x00000372                _ZN11Display16x29ClearEditEi
  .text._Z12MenuCallbacki
-                0x000003fe        0xa Sketch.o
-                0x000003fe                _Z12MenuCallbacki
+                0x00000394        0x2 Sketch.o
+                0x00000394                _Z12MenuCallbacki
  .text._Z21TimerHeatingInterruptv
-                0x00000408       0x52 Sketch.o
-                0x00000408                _Z21TimerHeatingInterruptv
+                0x00000396       0x52 Sketch.o
+                0x00000396                _Z21TimerHeatingInterruptv
+ .text.setup    0x000003e8      0x44e Sketch.o
+                0x000003e8                setup
  .text._Z13HeatingUpdatev
-                0x0000045a       0xe8 Sketch.o
-                0x0000045a                _Z13HeatingUpdatev
+                0x00000836       0xe8 Sketch.o
+                0x00000836                _Z13HeatingUpdatev
  .text._Z13DisplayUpdatev
-                0x00000542      0x13e Sketch.o
-                0x00000542                _Z13DisplayUpdatev
- .text._Z20SaveSettingsInEepromv
-                0x00000680       0x5a Sketch.o
-                0x00000680                _Z20SaveSettingsInEepromv
- .text._Z19EncoderButtonUpdatev
-                0x000006da       0x26 Sketch.o
-                0x000006da                _Z19EncoderButtonUpdatev
- .text._Z13UpdateTempValRdi
-                0x00000700       0x76 Sketch.o
-                0x00000700                _Z13UpdateTempValRdi
+                0x0000091e      0x13e Sketch.o
+                0x0000091e                _Z13DisplayUpdatev
  .text._Z13EncoderUpdatev
-                0x00000776       0xe8 Sketch.o
-                0x00000776                _Z13EncoderUpdatev
- .text.loop     0x0000085e       0x28 Sketch.o
-                0x0000085e                loop
- .text._Z15CreateMenuItemsv
-                0x00000886      0x146 Sketch.o
-                0x00000886                _Z15CreateMenuItemsv
- .text.setup    0x000009cc      0x322 Sketch.o
-                0x000009cc                setup
+                0x00000a5c       0x42 Sketch.o
+                0x00000a5c                _Z13EncoderUpdatev
+ .text._Z19EncoderButtonUpdatev
+                0x00000a9e       0x26 Sketch.o
+                0x00000a9e                _Z19EncoderButtonUpdatev
+ .text.loop     0x00000ac4       0x28 Sketch.o
+                0x00000ac4                loop
  .text._ZN7AutoPIDC2EPdS0_S0_ddddd
-                0x00000cee       0x8c src/libraries/AutoPID/AutoPID.o
-                0x00000cee                _ZN7AutoPIDC1EPdS0_S0_ddddd
-                0x00000cee                _ZN7AutoPIDC2EPdS0_S0_ddddd
+                0x00000aec       0x8c src/libraries/AutoPID/AutoPID.o
+                0x00000aec                _ZN7AutoPIDC1EPdS0_S0_ddddd
+                0x00000aec                _ZN7AutoPIDC2EPdS0_S0_ddddd
  .text._ZN7AutoPID11setBangBangEd
-                0x00000d7a       0x14 src/libraries/AutoPID/AutoPID.o
-                0x00000d7a                _ZN7AutoPID11setBangBangEd
+                0x00000b78       0x14 src/libraries/AutoPID/AutoPID.o
+                0x00000b78                _ZN7AutoPID11setBangBangEd
  .text._ZN7AutoPID11setTimeStepEm
-                0x00000d8e        0xc src/libraries/AutoPID/AutoPID.o
-                0x00000d8e                _ZN7AutoPID11setTimeStepEm
+                0x00000b8c        0xc src/libraries/AutoPID/AutoPID.o
+                0x00000b8c                _ZN7AutoPID11setTimeStepEm
  .text._ZN7AutoPID10atSetPointEd
-                0x00000d9a       0x84 src/libraries/AutoPID/AutoPID.o
-                0x00000d9a                _ZN7AutoPID10atSetPointEd
+                0x00000b98       0x84 src/libraries/AutoPID/AutoPID.o
+                0x00000b98                _ZN7AutoPID10atSetPointEd
  .text._ZN7AutoPID5resetEv
-                0x00000e1e       0x28 src/libraries/AutoPID/AutoPID.o
-                0x00000e1e                _ZN7AutoPID5resetEv
+                0x00000c1c       0x28 src/libraries/AutoPID/AutoPID.o
+                0x00000c1c                _ZN7AutoPID5resetEv
  .text._ZN7AutoPID3runEv
-                0x00000e46      0x318 src/libraries/AutoPID/AutoPID.o
-                0x00000e46                _ZN7AutoPID3runEv
+                0x00000c44      0x318 src/libraries/AutoPID/AutoPID.o
+                0x00000c44                _ZN7AutoPID3runEv
  .text._ZN5Print17availableForWriteEv
-                0x0000115e        0x6 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x0000115e                _ZN5Print17availableForWriteEv
+                0x00000f5c        0x6 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00000f5c                _ZN5Print17availableForWriteEv
  .text._ZN5Print5flushEv
-                0x00001164        0x2 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x00001164                _ZN5Print5flushEv
+                0x00000f62        0x2 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00000f62                _ZN5Print5flushEv
  .text._ZN17LiquidCrystal_I2CC2Ehhhh
-                0x00001166       0x20 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x00001166                _ZN17LiquidCrystal_I2CC2Ehhhh
-                0x00001166                _ZN17LiquidCrystal_I2CC1Ehhhh
+                0x00000f64       0x20 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00000f64                _ZN17LiquidCrystal_I2CC2Ehhhh
+                0x00000f64                _ZN17LiquidCrystal_I2CC1Ehhhh
  .text._ZN17LiquidCrystal_I2C13expanderWriteEh
-                0x00001186       0x2e src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x00001186                _ZN17LiquidCrystal_I2C13expanderWriteEh
+                0x00000f84       0x2e src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00000f84                _ZN17LiquidCrystal_I2C13expanderWriteEh
  .text._ZN17LiquidCrystal_I2C11pulseEnableEh
-                0x000011b4       0x30 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x000011b4                _ZN17LiquidCrystal_I2C11pulseEnableEh
+                0x00000fb2       0x30 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00000fb2                _ZN17LiquidCrystal_I2C11pulseEnableEh
  .text._ZN17LiquidCrystal_I2C10write4bitsEh
-                0x000011e4       0x1c src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x000011e4                _ZN17LiquidCrystal_I2C10write4bitsEh
+                0x00000fe2       0x1c src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00000fe2                _ZN17LiquidCrystal_I2C10write4bitsEh
  .text._ZN17LiquidCrystal_I2C4sendEhh
-                0x00001200       0x2e src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x00001200                _ZN17LiquidCrystal_I2C4sendEhh
+                0x00000ffe       0x2e src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00000ffe                _ZN17LiquidCrystal_I2C4sendEhh
  .text._ZN17LiquidCrystal_I2C7commandEh
-                0x0000122e        0x6 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x0000122e                _ZN17LiquidCrystal_I2C7commandEh
+                0x0000102c        0x6 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x0000102c                _ZN17LiquidCrystal_I2C7commandEh
  .text._ZN17LiquidCrystal_I2C5clearEv
-                0x00001234        0xe src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x00001234                _ZN17LiquidCrystal_I2C5clearEv
+                0x00001032        0xe src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00001032                _ZN17LiquidCrystal_I2C5clearEv
  .text._ZN17LiquidCrystal_I2C4homeEv
-                0x00001242        0xe src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x00001242                _ZN17LiquidCrystal_I2C4homeEv
+                0x00001040        0xe src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00001040                _ZN17LiquidCrystal_I2C4homeEv
  .text._ZN17LiquidCrystal_I2C9setCursorEhh
-                0x00001250       0x5c src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x00001250                _ZN17LiquidCrystal_I2C9setCursorEhh
+                0x0000104e       0x5c src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x0000104e                _ZN17LiquidCrystal_I2C9setCursorEhh
  .text._ZN17LiquidCrystal_I2C7displayEv
-                0x000012ac       0x10 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x000012ac                _ZN17LiquidCrystal_I2C7displayEv
+                0x000010aa       0x10 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x000010aa                _ZN17LiquidCrystal_I2C7displayEv
  .text._ZN17LiquidCrystal_I2C5writeEh
-                0x000012bc        0xc src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x000012bc                _ZN17LiquidCrystal_I2C5writeEh
+                0x000010ba        0xc src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x000010ba                _ZN17LiquidCrystal_I2C5writeEh
  .text._ZN17LiquidCrystal_I2C5beginEv
-                0x000012c8       0xb2 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x000012c8                _ZN17LiquidCrystal_I2C5beginEv
+                0x000010c6       0xb2 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x000010c6                _ZN17LiquidCrystal_I2C5beginEv
  .text._ZN7MAX6675C2Eaaa
-                0x0000137a       0x30 src/libraries/MAX6675/max6675.o
-                0x0000137a                _ZN7MAX6675C2Eaaa
-                0x0000137a                _ZN7MAX6675C1Eaaa
+                0x00001178       0x30 src/libraries/MAX6675/max6675.o
+                0x00001178                _ZN7MAX6675C2Eaaa
+                0x00001178                _ZN7MAX6675C1Eaaa
  .text._ZN7MAX66757spireadEv
-                0x000013aa       0x78 src/libraries/MAX6675/max6675.o
-                0x000013aa                _ZN7MAX66757spireadEv
+                0x000011a8       0x78 src/libraries/MAX6675/max6675.o
+                0x000011a8                _ZN7MAX66757spireadEv
  .text._ZN7MAX667511readCelsiusEv
-                0x00001422       0x78 src/libraries/MAX6675/max6675.o
-                0x00001422                _ZN7MAX667511readCelsiusEv
+                0x00001220       0x78 src/libraries/MAX6675/max6675.o
+                0x00001220                _ZN7MAX667511readCelsiusEv
  .text._ZN4MItmC2E6Stringii
-                0x0000149a       0x5a src/libraries/MyMenu/MyMenu.o
-                0x0000149a                _ZN4MItmC2E6Stringii
-                0x0000149a                _ZN4MItmC1E6Stringii
+                0x00001298       0x5a src/libraries/MyMenu/MyMenu.o
+                0x00001298                _ZN4MItmC2E6Stringii
+                0x00001298                _ZN4MItmC1E6Stringii
  .text._ZN4MenuC2EP4MItmiP17LiquidCrystal_I2CPFviEi6String
-                0x000014f4      0x1b6 src/libraries/MyMenu/MyMenu.o
-                0x000014f4                _ZN4MenuC1EP4MItmiP17LiquidCrystal_I2CPFviEi6String
-                0x000014f4                _ZN4MenuC2EP4MItmiP17LiquidCrystal_I2CPFviEi6String
+                0x000012f2      0x1b6 src/libraries/MyMenu/MyMenu.o
+                0x000012f2                _ZN4MenuC1EP4MItmiP17LiquidCrystal_I2CPFviEi6String
+                0x000012f2                _ZN4MenuC2EP4MItmiP17LiquidCrystal_I2CPFviEi6String
  .text._ZN4MItmC2ERKS_
-                0x000016aa       0x48 src/libraries/MyMenu/MyMenu.o
-                0x000016aa                _ZN4MItmC1ERKS_
-                0x000016aa                _ZN4MItmC2ERKS_
+                0x000014a8       0x48 src/libraries/MyMenu/MyMenu.o
+                0x000014a8                _ZN4MItmC1ERKS_
+                0x000014a8                _ZN4MItmC2ERKS_
  .text._ZN4MItmD2Ev
-                0x000016f2       0x16 src/libraries/MyMenu/MyMenu.o
-                0x000016f2                _ZN4MItmD1Ev
-                0x000016f2                _ZN4MItmD2Ev
+                0x000014f0       0x16 src/libraries/MyMenu/MyMenu.o
+                0x000014f0                _ZN4MItmD1Ev
+                0x000014f0                _ZN4MItmD2Ev
  .text._ZN4Menu7drawSubEv
-                0x00001708      0x286 src/libraries/MyMenu/MyMenu.o
-                0x00001708                _ZN4Menu7drawSubEv
- .text._ZN4Menu6goDownEv
-                0x0000198e       0x5a src/libraries/MyMenu/MyMenu.o
-                0x0000198e                _ZN4Menu6goDownEv
- .text._ZN4Menu4goUpEv
-                0x000019e8       0xc0 src/libraries/MyMenu/MyMenu.o
-                0x000019e8                _ZN4Menu4goUpEv
- .text._ZN4Menu5goSubEi
-                0x00001aa8       0x60 src/libraries/MyMenu/MyMenu.o
-                0x00001aa8                _ZN4Menu5goSubEi
- .text._ZN4Menu6goBackEv
-                0x00001b08       0x2a src/libraries/MyMenu/MyMenu.o
-                0x00001b08                _ZN4Menu6goBackEv
+                0x00001506      0x286 src/libraries/MyMenu/MyMenu.o
+                0x00001506                _ZN4Menu7drawSubEv
  .text._ZN4Menu9findFirstE4MItm
-                0x00001b32       0xa2 src/libraries/MyMenu/MyMenu.o
-                0x00001b32                _ZN4Menu9findFirstE4MItm
+                0x0000178c       0xa2 src/libraries/MyMenu/MyMenu.o
+                0x0000178c                _ZN4Menu9findFirstE4MItm
  .text._ZN4Menu6goNextEv
-                0x00001bd4      0x124 src/libraries/MyMenu/MyMenu.o
-                0x00001bd4                _ZN4Menu6goNextEv
+                0x0000182e      0x124 src/libraries/MyMenu/MyMenu.o
+                0x0000182e                _ZN4Menu6goNextEv
+ .text._ZN4Menu6goMainEv
+                0x00001952        0xe src/libraries/MyMenu/MyMenu.o
+                0x00001952                _ZN4Menu6goMainEv
  .text.startup._GLOBAL__sub_I_name
-                0x00001cf8       0x18 src/libraries/MyMenu/MyMenu.o
+                0x00001960       0x18 src/libraries/MyMenu/MyMenu.o
  .text.exit._GLOBAL__sub_D_name
-                0x00001d10       0x10 src/libraries/MyMenu/MyMenu.o
+                0x00001978       0x10 src/libraries/MyMenu/MyMenu.o
  .text._ZN13RotaryEncoderC2Eiiiii
-                0x00001d20       0x6a src/libraries/RotaryEncoder/RotaryEncoder.o
-                0x00001d20                _ZN13RotaryEncoderC2Eiiiii
-                0x00001d20                _ZN13RotaryEncoderC1Eiiiii
+                0x00001988       0x6a src/libraries/RotaryEncoder/RotaryEncoder.o
+                0x00001988                _ZN13RotaryEncoderC2Eiiiii
+                0x00001988                _ZN13RotaryEncoderC1Eiiiii
  .text._ZN13RotaryEncoder11readEncoderEv
-                0x00001d8a      0x12a src/libraries/RotaryEncoder/RotaryEncoder.o
-                0x00001d8a                _ZN13RotaryEncoder11readEncoderEv
+                0x000019f2      0x12a src/libraries/RotaryEncoder/RotaryEncoder.o
+                0x000019f2                _ZN13RotaryEncoder11readEncoderEv
  .text._ZN11SimpleTimerC2Ev
-                0x00001eb4       0x64 src/libraries/SimpleTimer/SimpleTimer.o
-                0x00001eb4                _ZN11SimpleTimerC1Ev
-                0x00001eb4                _ZN11SimpleTimerC2Ev
+                0x00001b1c       0x64 src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001b1c                _ZN11SimpleTimerC1Ev
+                0x00001b1c                _ZN11SimpleTimerC2Ev
  .text._ZN11SimpleTimer17findFirstFreeSlotEv
-                0x00001f18       0x34 src/libraries/SimpleTimer/SimpleTimer.o
-                0x00001f18                _ZN11SimpleTimer17findFirstFreeSlotEv
+                0x00001b80       0x34 src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001b80                _ZN11SimpleTimer17findFirstFreeSlotEv
  .text._ZN11SimpleTimer8setTimerElPFvvEi
-                0x00001f4c       0xb2 src/libraries/SimpleTimer/SimpleTimer.o
-                0x00001f4c                _ZN11SimpleTimer8setTimerElPFvvEi
+                0x00001bb4       0xb2 src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001bb4                _ZN11SimpleTimer8setTimerElPFvvEi
  .text._ZN11SimpleTimer11setIntervalElPFvvE
-                0x00001ffe       0x12 src/libraries/SimpleTimer/SimpleTimer.o
-                0x00001ffe                _ZN11SimpleTimer11setIntervalElPFvvE
+                0x00001c66       0x12 src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001c66                _ZN11SimpleTimer11setIntervalElPFvvE
  .text._ZN11SimpleTimer11deleteTimerEi
-                0x00002010       0x7e src/libraries/SimpleTimer/SimpleTimer.o
-                0x00002010                _ZN11SimpleTimer11deleteTimerEi
+                0x00001c78       0x7e src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001c78                _ZN11SimpleTimer11deleteTimerEi
  .text._ZN11SimpleTimer3runEv
-                0x0000208e      0x18a src/libraries/SimpleTimer/SimpleTimer.o
-                0x0000208e                _ZN11SimpleTimer3runEv
+                0x00001cf6      0x18a src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001cf6                _ZN11SimpleTimer3runEv
  .text._ZN11SimpleTimer12restartTimerEi
-                0x00002218       0x34 src/libraries/SimpleTimer/SimpleTimer.o
-                0x00002218                _ZN11SimpleTimer12restartTimerEi
+                0x00001e80       0x34 src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001e80                _ZN11SimpleTimer12restartTimerEi
  .text._ZN11SimpleTimer6enableEi
-                0x0000224c       0x16 src/libraries/SimpleTimer/SimpleTimer.o
-                0x0000224c                _ZN11SimpleTimer6enableEi
+                0x00001eb4       0x16 src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001eb4                _ZN11SimpleTimer6enableEi
  .text._ZN11SimpleTimer7disableEi
-                0x00002262       0x14 src/libraries/SimpleTimer/SimpleTimer.o
-                0x00002262                _ZN11SimpleTimer7disableEi
+                0x00001eca       0x14 src/libraries/SimpleTimer/SimpleTimer.o
+                0x00001eca                _ZN11SimpleTimer7disableEi
  .text.twi_init
-                0x00002276       0x3c src/libraries/Wire/src/utility/twi.o
-                0x00002276                twi_init
+                0x00001ede       0x3c src/libraries/Wire/src/utility/twi.o
+                0x00001ede                twi_init
  .text.twi_writeTo
-                0x000022b2       0xac src/libraries/Wire/src/utility/twi.o
-                0x000022b2                twi_writeTo
+                0x00001f1a       0xac src/libraries/Wire/src/utility/twi.o
+                0x00001f1a                twi_writeTo
  .text.twi_transmit
-                0x0000235e       0x50 src/libraries/Wire/src/utility/twi.o
-                0x0000235e                twi_transmit
+                0x00001fc6       0x50 src/libraries/Wire/src/utility/twi.o
+                0x00001fc6                twi_transmit
  .text.twi_stop
-                0x000023ae       0x14 src/libraries/Wire/src/utility/twi.o
-                0x000023ae                twi_stop
+                0x00002016       0x14 src/libraries/Wire/src/utility/twi.o
+                0x00002016                twi_stop
  .text.twi_releaseBus
-                0x000023c2        0xc src/libraries/Wire/src/utility/twi.o
-                0x000023c2                twi_releaseBus
+                0x0000202a        0xc src/libraries/Wire/src/utility/twi.o
+                0x0000202a                twi_releaseBus
  .text.__vector_24
-                0x000023ce      0x25a src/libraries/Wire/src/utility/twi.o
-                0x000023ce                __vector_24
+                0x00002036      0x25a src/libraries/Wire/src/utility/twi.o
+                0x00002036                __vector_24
  .text._ZN7TwoWire9availableEv
-                0x00002628       0x10 src/libraries/Wire/src/Wire.o
-                0x00002628                _ZN7TwoWire9availableEv
+                0x00002290       0x10 src/libraries/Wire/src/Wire.o
+                0x00002290                _ZN7TwoWire9availableEv
  .text._ZN7TwoWire4readEv
-                0x00002638       0x28 src/libraries/Wire/src/Wire.o
-                0x00002638                _ZN7TwoWire4readEv
+                0x000022a0       0x28 src/libraries/Wire/src/Wire.o
+                0x000022a0                _ZN7TwoWire4readEv
  .text._ZN7TwoWire4peekEv
-                0x00002660       0x1e src/libraries/Wire/src/Wire.o
-                0x00002660                _ZN7TwoWire4peekEv
+                0x000022c8       0x1e src/libraries/Wire/src/Wire.o
+                0x000022c8                _ZN7TwoWire4peekEv
  .text._ZN7TwoWire5flushEv
-                0x0000267e        0x2 src/libraries/Wire/src/Wire.o
-                0x0000267e                _ZN7TwoWire5flushEv
+                0x000022e6        0x2 src/libraries/Wire/src/Wire.o
+                0x000022e6                _ZN7TwoWire5flushEv
  .text._ZN7TwoWire5writeEPKhj
-                0x00002680       0x5a src/libraries/Wire/src/Wire.o
-                0x00002680                _ZN7TwoWire5writeEPKhj
+                0x000022e8       0x5a src/libraries/Wire/src/Wire.o
+                0x000022e8                _ZN7TwoWire5writeEPKhj
  .text._ZN7TwoWire5writeEh
-                0x000026da       0x5e src/libraries/Wire/src/Wire.o
-                0x000026da                _ZN7TwoWire5writeEh
+                0x00002342       0x5e src/libraries/Wire/src/Wire.o
+                0x00002342                _ZN7TwoWire5writeEh
  .text._ZN7TwoWireC2Ev
-                0x00002738       0x20 src/libraries/Wire/src/Wire.o
-                0x00002738                _ZN7TwoWireC1Ev
-                0x00002738                _ZN7TwoWireC2Ev
+                0x000023a0       0x20 src/libraries/Wire/src/Wire.o
+                0x000023a0                _ZN7TwoWireC1Ev
+                0x000023a0                _ZN7TwoWireC2Ev
  .text._ZN7TwoWire5beginEv
-                0x00002758       0x14 src/libraries/Wire/src/Wire.o
-                0x00002758                _ZN7TwoWire5beginEv
+                0x000023c0       0x14 src/libraries/Wire/src/Wire.o
+                0x000023c0                _ZN7TwoWire5beginEv
  .text._ZN7TwoWire17beginTransmissionEh
-                0x0000276c       0x14 src/libraries/Wire/src/Wire.o
-                0x0000276c                _ZN7TwoWire17beginTransmissionEh
+                0x000023d4       0x14 src/libraries/Wire/src/Wire.o
+                0x000023d4                _ZN7TwoWire17beginTransmissionEh
  .text._ZN7TwoWire15endTransmissionEh
-                0x00002780       0x26 src/libraries/Wire/src/Wire.o
-                0x00002780                _ZN7TwoWire15endTransmissionEh
+                0x000023e8       0x26 src/libraries/Wire/src/Wire.o
+                0x000023e8                _ZN7TwoWire15endTransmissionEh
  .text._ZN7TwoWire15endTransmissionEv
-                0x000027a6        0x6 src/libraries/Wire/src/Wire.o
-                0x000027a6                _ZN7TwoWire15endTransmissionEv
+                0x0000240e        0x6 src/libraries/Wire/src/Wire.o
+                0x0000240e                _ZN7TwoWire15endTransmissionEv
  .text.startup._GLOBAL__sub_I__ZN7TwoWire8rxBufferE
-                0x000027ac        0x8 src/libraries/Wire/src/Wire.o
+                0x00002414        0x8 src/libraries/Wire/src/Wire.o
  .text._ZN11ThermometerC2Eiii
-                0x000027b4       0x40 Thermometer/Thermometer.o
-                0x000027b4                _ZN11ThermometerC1Eiii
-                0x000027b4                _ZN11ThermometerC2Eiii
+                0x0000241c       0x40 Thermometer/Thermometer.o
+                0x0000241c                _ZN11ThermometerC1Eiii
+                0x0000241c                _ZN11ThermometerC2Eiii
  .text._ZN11Thermometer4ReadEv
-                0x000027f4        0xa Thermometer/Thermometer.o
-                0x000027f4                _ZN11Thermometer4ReadEv
+                0x0000245c        0xa Thermometer/Thermometer.o
+                0x0000245c                _ZN11Thermometer4ReadEv
  .text.avr-libc.fplib
-                0x000027fe        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x000027fe                __subsf3
-                0x00002800                __addsf3
+                0x00002466        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00002466                __subsf3
+                0x00002468                __addsf3
  .text.avr-libc.fplib
-                0x0000280c       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x0000282e                __addsf3x
+                0x00002474       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x00002496                __addsf3x
  .text.avr-libc.fplib
-                0x000028d8        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
-                0x000028d8                __nesf2
-                0x000028d8                __eqsf2
-                0x000028d8                __cmpsf2
-                0x000028d8                __ltsf2
-                0x000028d8                __lesf2
+                0x00002540        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                0x00002540                __nesf2
+                0x00002540                __eqsf2
+                0x00002540                __cmpsf2
+                0x00002540                __ltsf2
+                0x00002540                __lesf2
  .text.avr-libc.fplib
-                0x000028e2        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x000028e2                __divsf3
+                0x0000254a        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x0000254a                __divsf3
  .text.avr-libc.fplib
-                0x000028ea       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x0000290a                __divsf3x
-                0x00002910                __divsf3_pse
+                0x00002552       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00002572                __divsf3x
+                0x00002578                __divsf3_pse
  .text.avr-libc.fplib
-                0x000029c6        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
-                0x000029c6                __fixsfsi
+                0x0000262e        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x0000262e                __fixsfsi
  .text.avr-libc.fplib
-                0x000029d4       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x000029d4                __fixunssfsi
+                0x0000263c       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x0000263c                __fixunssfsi
  .text.avr-libc.fplib
-                0x00002a32       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x00002a32                __floatunsisf
-                0x00002a36                __floatsisf
+                0x0000269a       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x0000269a                __floatunsisf
+                0x0000269e                __floatsisf
  .text.avr-libc.fplib
-                0x00002aac       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floor.o)
-                0x00002aac                floor
+                0x00002714       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floor.o)
+                0x00002714                floor
  .text.avr-libc.fplib
-                0x00002ada       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
-                0x00002ada                __fp_cmp
+                0x00002742       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x00002742                __fp_cmp
  .text.avr-libc.fplib
-                0x00002b22        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x00002b22                __fp_inf
+                0x0000278a        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x0000278a                __fp_inf
  .text.avr-libc.fplib
-                0x00002b2e       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_mintl.o)
-                0x00002b2e                __fp_mintl
+                0x00002796       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_mintl.o)
+                0x00002796                __fp_mintl
  .text.avr-libc.fplib
-                0x00002b64       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
-                0x00002b64                __fp_mpack
-                0x00002b68                __fp_mpack_finite
+                0x000027cc       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+                0x000027cc                __fp_mpack
+                0x000027d0                __fp_mpack_finite
  .text.avr-libc.fplib
-                0x00002b80        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x00002b80                __fp_nan
+                0x000027e8        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x000027e8                __fp_nan
  .text.avr-libc.fplib
-                0x00002b86        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x00002b86                __fp_pscA
+                0x000027ee        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x000027ee                __fp_pscA
  .text.avr-libc.fplib
-                0x00002b94        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x00002b94                __fp_pscB
+                0x000027fc        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x000027fc                __fp_pscB
  .text.avr-libc.fplib
-                0x00002ba2       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x00002ba2                __fp_round
+                0x0000280a       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x0000280a                __fp_round
  .text.avr-libc.fplib
-                0x00002bc4       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x00002bc4                __fp_split3
-                0x00002bd4                __fp_splitA
+                0x0000282c       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x0000282c                __fp_split3
+                0x0000283c                __fp_splitA
  .text.avr-libc.fplib
-                0x00002c08       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_trunc.o)
-                0x00002c08                __fp_trunc
+                0x00002870       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_trunc.o)
+                0x00002870                __fp_trunc
  .text.avr-libc.fplib
-                0x00002c38        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x00002c38                __fp_zero
-                0x00002c3a                __fp_szero
+                0x000028a0        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x000028a0                __fp_zero
+                0x000028a2                __fp_szero
  .text.avr-libc.fplib
-                0x00002c46        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                0x00002c46                __gesf2
-                0x00002c46                __gtsf2
+                0x000028ae        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                0x000028ae                __gesf2
+                0x000028ae                __gtsf2
  .text.avr-libc.fplib
-                0x00002c50        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x00002c50                __mulsf3
+                0x000028b8        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x000028b8                __mulsf3
  .text.avr-libc.fplib
-                0x00002c58       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x00002c76                __mulsf3x
-                0x00002c7c                __mulsf3_pse
+                0x000028c0       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x000028de                __mulsf3x
+                0x000028e4                __mulsf3_pse
  .text.initVariant
-                0x00002d2a        0x2 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00002d2a                initVariant
+                0x00002992        0x2 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00002992                initVariant
  .text.startup.main
-                0x00002d2c       0x1e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00002d2c                main
- .text._Znwj    0x00002d4a        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
-                0x00002d4a                _Znwj
+                0x00002994       0x1e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00002994                main
+ .text._Znwj    0x000029b2        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+                0x000029b2                _Znwj
  .text._ZN5Print5writeEPKhj
-                0x00002d4e       0x54 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00002d4e                _ZN5Print5writeEPKhj
+                0x000029b6       0x54 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000029b6                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x00002da2       0x2a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00002da2                _ZN5Print5writeEPKc
+                0x00002a0a       0x2a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00002a0a                _ZN5Print5writeEPKc
  .text._ZN5Print5printERK6String
-                0x00002dcc       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00002dcc                _ZN5Print5printERK6String
+                0x00002a34       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00002a34                _ZN5Print5printERK6String
  .text._ZN5Print5printEPKc
-                0x00002de8        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00002de8                _ZN5Print5printEPKc
+                0x00002a50        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00002a50                _ZN5Print5printEPKc
  .text._ZN5Print5printEc
-                0x00002dec        0xe R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00002dec                _ZN5Print5printEc
+                0x00002a54        0xe D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00002a54                _ZN5Print5printEc
  .text._ZN5Print11printNumberEmh
-                0x00002dfa       0x92 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00002dfa                _ZN5Print11printNumberEmh
+                0x00002a62       0x92 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00002a62                _ZN5Print11printNumberEmh
  .text._ZN5Print5printEli
-                0x00002e8c       0x90 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00002e8c                _ZN5Print5printEli
+                0x00002af4       0x90 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00002af4                _ZN5Print5printEli
  .text._ZN5Print5printEii
-                0x00002f1c        0xe R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00002f1c                _ZN5Print5printEii
- .text.nothing  0x00002f2a        0x2 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002b84        0xe D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00002b84                _ZN5Print5printEii
+ .text.nothing  0x00002b92        0x2 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
  .text.attachInterrupt
-                0x00002f2c       0x40 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00002f2c                attachInterrupt
+                0x00002b94       0x40 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002b94                attachInterrupt
  .text.__vector_1
-                0x00002f6c       0x4e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00002f6c                __vector_1
+                0x00002bd4       0x4e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002bd4                __vector_1
  .text.__vector_2
-                0x00002fba       0x4e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00002fba                __vector_2
+                0x00002c22       0x4e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002c22                __vector_2
  .text.__vector_16
-                0x00003008       0x94 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00003008                __vector_16
- .text.millis   0x0000309c       0x18 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0000309c                millis
- .text.micros   0x000030b4       0x4a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000030b4                micros
- .text.delay    0x000030fe       0x78 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000030fe                delay
+                0x00002c70       0x94 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00002c70                __vector_16
+ .text.millis   0x00002d04       0x18 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00002d04                millis
+ .text.micros   0x00002d1c       0x4a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00002d1c                micros
+ .text.delay    0x00002d66       0x78 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00002d66                delay
  .text.delayMicroseconds
-                0x00003176       0x16 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00003176                delayMicroseconds
- .text.init     0x0000318c       0x76 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0000318c                init
+                0x00002dde       0x16 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00002dde                delayMicroseconds
+ .text.init     0x00002df4       0x76 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00002df4                init
  .text.turnOffPWM
-                0x00003202       0x52 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x00003254       0x78 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00003254                pinMode
+                0x00002e6a       0x52 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x00002ebc       0x78 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00002ebc                pinMode
  .text.digitalWrite
-                0x000032cc       0x5e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000032cc                digitalWrite
+                0x00002f34       0x5e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00002f34                digitalWrite
  .text.digitalRead
-                0x0000332a       0x52 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x0000332a                digitalRead
+                0x00002f92       0x52 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00002f92                digitalRead
  .text._ZN6StringD2Ev
-                0x0000337c        0xa R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000337c                _ZN6StringD2Ev
-                0x0000337c                _ZN6StringD1Ev
+                0x00002fe4        0xa D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00002fe4                _ZN6StringD2Ev
+                0x00002fe4                _ZN6StringD1Ev
  .text._ZN6String10invalidateEv
-                0x00003386       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00003386                _ZN6String10invalidateEv
+                0x00002fee       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00002fee                _ZN6String10invalidateEv
  .text._ZN6String12changeBufferEj
-                0x000033aa       0x34 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000033aa                _ZN6String12changeBufferEj
+                0x00003012       0x34 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00003012                _ZN6String12changeBufferEj
  .text._ZN6String7reserveEj
-                0x000033de       0x38 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000033de                _ZN6String7reserveEj
+                0x00003046       0x38 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00003046                _ZN6String7reserveEj
  .text._ZN6String4copyEPKcj
-                0x00003416       0x42 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00003416                _ZN6String4copyEPKcj
+                0x0000307e       0x42 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000307e                _ZN6String4copyEPKcj
  .text._ZN6StringC2EPKc
-                0x00003458       0x2a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00003458                _ZN6StringC2EPKc
-                0x00003458                _ZN6StringC1EPKc
+                0x000030c0       0x2a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000030c0                _ZN6StringC2EPKc
+                0x000030c0                _ZN6StringC1EPKc
  .text._ZN6StringaSERKS_
-                0x00003482       0x2e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00003482                _ZN6StringaSERKS_
+                0x000030ea       0x2e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000030ea                _ZN6StringaSERKS_
  .text._ZN6StringC2ERKS_
-                0x000034b0       0x12 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000034b0                _ZN6StringC2ERKS_
-                0x000034b0                _ZN6StringC1ERKS_
+                0x00003118       0x12 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00003118                _ZN6StringC2ERKS_
+                0x00003118                _ZN6StringC1ERKS_
  .text._ZN6StringaSEPKc
-                0x000034c2       0x2e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000034c2                _ZN6StringaSEPKc
+                0x0000312a       0x2e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000312a                _ZN6StringaSEPKc
  .text._ZN6String6concatEPKcj
-                0x000034f0       0x5c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000034f0                _ZN6String6concatEPKcj
+                0x00003158       0x5c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00003158                _ZN6String6concatEPKcj
  .text._ZplRK15StringSumHelperRK6String
-                0x0000354c       0x26 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000354c                _ZplRK15StringSumHelperRK6String
+                0x000031b4       0x26 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000031b4                _ZplRK15StringSumHelperRK6String
  .text._ZplRK15StringSumHelperPKc
-                0x00003572       0x32 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00003572                _ZplRK15StringSumHelperPKc
+                0x000031da       0x32 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000031da                _ZplRK15StringSumHelperPKc
  .text._ZNK6String9substringEjj
-                0x000035a4       0x8a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000035a4                _ZNK6String9substringEjj
- .text.__empty  0x0000362e        0x2 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                0x0000362e                yield
+                0x0000320c       0x8a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000320c                _ZNK6String9substringEjj
+ .text.__empty  0x00003296        0x2 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00003296                yield
  .text.libgcc.div
-                0x00003630       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
-                0x00003630                _div
-                0x00003630                __divmodhi4
+                0x00003298       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x00003298                _div
+                0x00003298                __divmodhi4
  .text.libgcc.div
-                0x00003658       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00003658                __udivmodsi4
+                0x000032c0       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x000032c0                __udivmodsi4
  .text.libgcc.div
-                0x0000369c       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
-                0x0000369c                __udivmodhi4
- .text.libgcc   0x000036c4        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x000036c4                __tablejump2__
+                0x00003304       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x00003304                __udivmodhi4
+ .text.libgcc   0x0000332c        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000332c                __tablejump2__
  .text.avr-libc
-                0x000036d0      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x000036d0                malloc
-                0x00003800                free
+                0x00003338      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00003338                malloc
+                0x00003468                free
  .text.avr-libc
-                0x00003912      0x18c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
-                0x00003912                realloc
+                0x0000357a      0x18c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x0000357a                realloc
  .text.avr-libc
-                0x00003a9e       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                0x00003a9e                memcpy
+                0x00003706       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x00003706                memcpy
  .text.avr-libc
-                0x00003ab0        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
-                0x00003ab0                strcpy
+                0x00003718        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x00003718                strcpy
  .text.avr-libc
-                0x00003abe       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
-                0x00003abe                eeprom_read_byte
- .text.avr-libc
-                0x00003ace       0x1c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
-                0x00003ace                eeprom_write_byte
-                0x00003ad0                eeprom_write_r18
+                0x00003726       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+                0x00003726                eeprom_read_byte
  .text.libgcc.prologue
-                0x00003aea       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
-                0x00003aea                __prologue_saves__
+                0x00003736       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x00003736                __prologue_saves__
  .text.libgcc.prologue
-                0x00003b22       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
-                0x00003b22                __epilogue_restores__
-                0x00003b58                . = ALIGN (0x2)
+                0x0000376e       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x0000376e                __epilogue_restores__
+                0x000037a4                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00003b58        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00003b58                _exit
-                0x00003b58                exit
+ .fini9         0x000037a4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000037a4                _exit
+                0x000037a4                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00003b58       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
-                0x00003b58                __do_global_dtors
+ .fini6         0x000037a4       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
+                0x000037a4                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -1846,11 +1842,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00003b6e        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000037ba        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00003b72                _etext = .
+                0x000037be                _etext = .
 
-.data           0x00800100       0x9a load address 0x00003b72
+.data           0x00800100       0xaa load address 0x000037be
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
@@ -1864,7 +1860,7 @@ END GROUP
  .data._menuActive
                 0x00800107        0x1 Sketch.o
                 0x00800107                _menuActive
- .data.intFunc  0x00800108        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .data.intFunc  0x00800108        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
  *(.gnu.linkonce.d*)
  *(.rodata)
  .rodata        0x0080010c        0x8 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
@@ -1873,168 +1869,165 @@ END GROUP
                 0x00800114       0x19 Display/Display16x2.o
                                  0x1b (size before relaxing)
  .rodata.str1.1
-                0x0080012d       0x3a Sketch.o
+                0x0080012d       0x4a Sketch.o
  .rodata._ZTV17LiquidCrystal_I2C
-                0x00800167        0xc src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
-                0x00800167                _ZTV17LiquidCrystal_I2C
+                0x00800177        0xc src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+                0x00800177                _ZTV17LiquidCrystal_I2C
  .rodata.str1.1
-                0x00800173       0x15 src/libraries/MyMenu/MyMenu.o
+                0x00800183       0x15 src/libraries/MyMenu/MyMenu.o
                                  0x18 (size before relaxing)
  .rodata._ZTV7TwoWire
-                0x00800188       0x12 src/libraries/Wire/src/Wire.o
-                0x00800188                _ZTV7TwoWire
+                0x00800198       0x12 src/libraries/Wire/src/Wire.o
+                0x00800198                _ZTV7TwoWire
  .rodata.str1.1
-                0x0080019a        0x1 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x008001aa        0x1 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  *(.gnu.linkonce.r*)
-                0x0080019c                . = ALIGN (0x2)
-                0x0080019c                _edata = .
-                0x0080019c                PROVIDE (__data_end, .)
+                0x008001ac                . = ALIGN (0x2)
+                0x008001ac                _edata = .
+                0x008001ac                PROVIDE (__data_end, .)
 
-.bss            0x0080019a      0x10f
-                0x0080019a                PROVIDE (__bss_start, .)
+.bss            0x008001aa      0x10d
+                0x008001aa                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss._timerHeatingId
-                0x0080019a        0x2 Sketch.o
-                0x0080019a                _timerHeatingId
+                0x008001aa        0x2 Sketch.o
+                0x008001aa                _timerHeatingId
  .bss._pidOldDownVal
-                0x0080019c        0x2 Sketch.o
-                0x0080019c                _pidOldDownVal
+                0x008001ac        0x2 Sketch.o
+                0x008001ac                _pidOldDownVal
  .bss._pidDownVal
-                0x0080019e        0x2 Sketch.o
-                0x0080019e                _pidDownVal
+                0x008001ae        0x2 Sketch.o
+                0x008001ae                _pidDownVal
  .bss._pidUpVal
-                0x008001a0        0x2 Sketch.o
-                0x008001a0                _pidUpVal
+                0x008001b0        0x2 Sketch.o
+                0x008001b0                _pidUpVal
  .bss._regulationUp
-                0x008001a2        0x1 Sketch.o
-                0x008001a2                _regulationUp
- .bss._curMenuIndex
-                0x008001a3        0x2 Sketch.o
-                0x008001a3                _curMenuIndex
+                0x008001b2        0x1 Sketch.o
+                0x008001b2                _regulationUp
  .bss._heaterOn
-                0x008001a5        0x1 Sketch.o
-                0x008001a5                _heaterOn
+                0x008001b3        0x1 Sketch.o
+                0x008001b3                _heaterOn
  .bss._outputDownVal
-                0x008001a6        0x4 Sketch.o
-                0x008001a6                _outputDownVal
+                0x008001b4        0x4 Sketch.o
+                0x008001b4                _outputDownVal
  .bss._outputUpVal
-                0x008001aa        0x4 Sketch.o
-                0x008001aa                _outputUpVal
+                0x008001b8        0x4 Sketch.o
+                0x008001b8                _outputUpVal
  .bss._setTempDown
-                0x008001ae        0x4 Sketch.o
-                0x008001ae                _setTempDown
+                0x008001bc        0x4 Sketch.o
+                0x008001bc                _setTempDown
  .bss._setTempUp
-                0x008001b2        0x4 Sketch.o
-                0x008001b2                _setTempUp
+                0x008001c0        0x4 Sketch.o
+                0x008001c0                _setTempUp
  .bss._tempDown
-                0x008001b6        0x4 Sketch.o
-                0x008001b6                _tempDown
- .bss._tempUp   0x008001ba        0x4 Sketch.o
-                0x008001ba                _tempUp
+                0x008001c4        0x4 Sketch.o
+                0x008001c4                _tempDown
+ .bss._tempUp   0x008001c8        0x4 Sketch.o
+                0x008001c8                _tempUp
  .bss._timerHeating
-                0x008001be        0x2 Sketch.o
-                0x008001be                _timerHeating
- .bss._menu     0x008001c0        0x2 Sketch.o
-                0x008001c0                _menu
- .bss._lcd      0x008001c2        0x2 Sketch.o
-                0x008001c2                _lcd
- .bss._encoder  0x008001c4        0x2 Sketch.o
-                0x008001c4                _encoder
- .bss._pidDown  0x008001c6        0x2 Sketch.o
-                0x008001c6                _pidDown
- .bss._pidUp    0x008001c8        0x2 Sketch.o
-                0x008001c8                _pidUp
- .bss._display  0x008001ca        0x2 Sketch.o
-                0x008001ca                _display
- .bss._thermometer
                 0x008001cc        0x2 Sketch.o
-                0x008001cc                _thermometer
- .bss._dimmer   0x008001ce        0x2 Sketch.o
-                0x008001ce                _dimmer
+                0x008001cc                _timerHeating
+ .bss._menu     0x008001ce        0x2 Sketch.o
+                0x008001ce                _menu
+ .bss._lcd      0x008001d0        0x2 Sketch.o
+                0x008001d0                _lcd
+ .bss._encoder  0x008001d2        0x2 Sketch.o
+                0x008001d2                _encoder
+ .bss._pidDown  0x008001d4        0x2 Sketch.o
+                0x008001d4                _pidDown
+ .bss._pidUp    0x008001d6        0x2 Sketch.o
+                0x008001d6                _pidUp
+ .bss._display  0x008001d8        0x2 Sketch.o
+                0x008001d8                _display
+ .bss._thermometer
+                0x008001da        0x2 Sketch.o
+                0x008001da                _thermometer
+ .bss._dimmer   0x008001dc        0x2 Sketch.o
+                0x008001dc                _dimmer
  .bss.sub_title
-                0x008001d0        0x6 src/libraries/MyMenu/MyMenu.o
-                0x008001d0                sub_title
- .bss.name      0x008001d6        0x6 src/libraries/MyMenu/MyMenu.o
-                0x008001d6                name
+                0x008001de        0x6 src/libraries/MyMenu/MyMenu.o
+                0x008001de                sub_title
+ .bss.name      0x008001e4        0x6 src/libraries/MyMenu/MyMenu.o
+                0x008001e4                name
  .bss.twi_error
-                0x008001dc        0x1 src/libraries/Wire/src/utility/twi.o
+                0x008001ea        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_rxBufferIndex
-                0x008001dd        0x1 src/libraries/Wire/src/utility/twi.o
+                0x008001eb        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_rxBuffer
-                0x008001de       0x20 src/libraries/Wire/src/utility/twi.o
+                0x008001ec       0x20 src/libraries/Wire/src/utility/twi.o
  .bss.twi_txBufferLength
-                0x008001fe        0x1 src/libraries/Wire/src/utility/twi.o
+                0x0080020c        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_txBufferIndex
-                0x008001ff        0x1 src/libraries/Wire/src/utility/twi.o
+                0x0080020d        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_txBuffer
-                0x00800200       0x20 src/libraries/Wire/src/utility/twi.o
+                0x0080020e       0x20 src/libraries/Wire/src/utility/twi.o
  .bss.twi_masterBufferLength
-                0x00800220        0x1 src/libraries/Wire/src/utility/twi.o
+                0x0080022e        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_masterBufferIndex
-                0x00800221        0x1 src/libraries/Wire/src/utility/twi.o
+                0x0080022f        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_masterBuffer
-                0x00800222       0x20 src/libraries/Wire/src/utility/twi.o
+                0x00800230       0x20 src/libraries/Wire/src/utility/twi.o
  .bss.twi_onSlaveReceive
-                0x00800242        0x2 src/libraries/Wire/src/utility/twi.o
+                0x00800250        0x2 src/libraries/Wire/src/utility/twi.o
  .bss.twi_onSlaveTransmit
-                0x00800244        0x2 src/libraries/Wire/src/utility/twi.o
+                0x00800252        0x2 src/libraries/Wire/src/utility/twi.o
  .bss.twi_inRepStart
-                0x00800246        0x1 src/libraries/Wire/src/utility/twi.o
+                0x00800254        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_sendStop
-                0x00800247        0x1 src/libraries/Wire/src/utility/twi.o
+                0x00800255        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_slarw
-                0x00800248        0x1 src/libraries/Wire/src/utility/twi.o
+                0x00800256        0x1 src/libraries/Wire/src/utility/twi.o
  .bss.twi_state
-                0x00800249        0x1 src/libraries/Wire/src/utility/twi.o
- .bss.Wire      0x0080024a        0xc src/libraries/Wire/src/Wire.o
-                0x0080024a                Wire
+                0x00800257        0x1 src/libraries/Wire/src/utility/twi.o
+ .bss.Wire      0x00800258        0xc src/libraries/Wire/src/Wire.o
+                0x00800258                Wire
  .bss._ZN7TwoWire12transmittingE
-                0x00800256        0x1 src/libraries/Wire/src/Wire.o
-                0x00800256                _ZN7TwoWire12transmittingE
+                0x00800264        0x1 src/libraries/Wire/src/Wire.o
+                0x00800264                _ZN7TwoWire12transmittingE
  .bss._ZN7TwoWire14txBufferLengthE
-                0x00800257        0x1 src/libraries/Wire/src/Wire.o
-                0x00800257                _ZN7TwoWire14txBufferLengthE
+                0x00800265        0x1 src/libraries/Wire/src/Wire.o
+                0x00800265                _ZN7TwoWire14txBufferLengthE
  .bss._ZN7TwoWire13txBufferIndexE
-                0x00800258        0x1 src/libraries/Wire/src/Wire.o
-                0x00800258                _ZN7TwoWire13txBufferIndexE
+                0x00800266        0x1 src/libraries/Wire/src/Wire.o
+                0x00800266                _ZN7TwoWire13txBufferIndexE
  .bss._ZN7TwoWire8txBufferE
-                0x00800259       0x20 src/libraries/Wire/src/Wire.o
-                0x00800259                _ZN7TwoWire8txBufferE
+                0x00800267       0x20 src/libraries/Wire/src/Wire.o
+                0x00800267                _ZN7TwoWire8txBufferE
  .bss._ZN7TwoWire9txAddressE
-                0x00800279        0x1 src/libraries/Wire/src/Wire.o
-                0x00800279                _ZN7TwoWire9txAddressE
+                0x00800287        0x1 src/libraries/Wire/src/Wire.o
+                0x00800287                _ZN7TwoWire9txAddressE
  .bss._ZN7TwoWire14rxBufferLengthE
-                0x0080027a        0x1 src/libraries/Wire/src/Wire.o
-                0x0080027a                _ZN7TwoWire14rxBufferLengthE
+                0x00800288        0x1 src/libraries/Wire/src/Wire.o
+                0x00800288                _ZN7TwoWire14rxBufferLengthE
  .bss._ZN7TwoWire13rxBufferIndexE
-                0x0080027b        0x1 src/libraries/Wire/src/Wire.o
-                0x0080027b                _ZN7TwoWire13rxBufferIndexE
+                0x00800289        0x1 src/libraries/Wire/src/Wire.o
+                0x00800289                _ZN7TwoWire13rxBufferIndexE
  .bss._ZN7TwoWire8rxBufferE
-                0x0080027c       0x20 src/libraries/Wire/src/Wire.o
-                0x0080027c                _ZN7TwoWire8rxBufferE
+                0x0080028a       0x20 src/libraries/Wire/src/Wire.o
+                0x0080028a                _ZN7TwoWire8rxBufferE
  .bss.timer0_fract
-                0x0080029c        0x1 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002aa        0x1 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x0080029d        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0080029d                timer0_millis
+                0x008002ab        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002ab                timer0_millis
  .bss.timer0_overflow_count
-                0x008002a1        0x4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x008002a1                timer0_overflow_count
+                0x008002af        0x4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002af                timer0_overflow_count
  *(COMMON)
- COMMON         0x008002a5        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x008002a5                __brkval
-                0x008002a7                __flp
-                0x008002a9                PROVIDE (__bss_end, .)
-                0x00003b72                __data_load_start = LOADADDR (.data)
-                0x00003c0c                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008002b3        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008002b3                __brkval
+                0x008002b5                __flp
+                0x008002b7                PROVIDE (__bss_end, .)
+                0x000037be                __data_load_start = LOADADDR (.data)
+                0x00003868                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008002a9        0x0
+.noinit         0x008002b7        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008002a9                _end = .
-                0x008002a9                PROVIDE (__heap_start, .)
+                0x008002b7                _end = .
+                0x008002b7                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -2089,14 +2082,14 @@ END GROUP
  .comment       0x00000030       0x31 src/libraries/Wire/src/utility/twi.o
  .comment       0x00000030       0x31 src/libraries/Wire/src/Wire.o
  .comment       0x00000030       0x31 Thermometer/Thermometer.o
- .comment       0x00000030       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .comment       0x00000030       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .comment       0x00000030       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .comment       0x00000030       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .comment       0x00000030       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .comment       0x00000030       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .comment       0x00000030       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .comment       0x00000030       0x31 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .comment       0x00000030       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .comment       0x00000030       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .comment       0x00000030       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .comment       0x00000030       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .comment       0x00000030       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .comment       0x00000030       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .comment       0x00000030       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .comment       0x00000030       0x31 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
  .comment       0x00000030       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
  .comment       0x00000030       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
 
@@ -2120,7 +2113,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0xb40
+.debug_aranges  0x00000000      0xb20
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x50 Dimmer/Dimmer.o
@@ -2149,201 +2142,196 @@ END GROUP
  .debug_aranges
                 0x000005e0       0x30 Thermometer/Thermometer.o
  .debug_aranges
-                0x00000610       0x30 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000610       0x30 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
  .debug_aranges
-                0x00000640       0x28 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+                0x00000640       0x28 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
  .debug_aranges
-                0x00000668      0x100 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000668      0x100 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .debug_aranges
-                0x00000768       0x40 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00000768       0x40 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
  .debug_aranges
-                0x000007a8       0x48 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000007a8       0x48 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .debug_aranges
-                0x000007f0       0x38 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000007f0       0x38 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
  .debug_aranges
-                0x00000828      0x2b8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000828      0x2b8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .debug_aranges
-                0x00000ae0       0x20 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00000ae0       0x20 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
  .debug_aranges
                 0x00000b00       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
- .debug_aranges
-                0x00000b20       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x159a5
+.debug_info     0x00000000    0x15bdb
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5/crtatmega328p.o
  .debug_info    0x000005f4      0xa7e Dimmer/Dimmer.o
  .debug_info    0x00001072      0x34d Dimmer/DimmerItem.o
  .debug_info    0x000013bf      0x76b Display/Display16x2.o
- .debug_info    0x00001b2a     0x37ef Sketch.o
- .debug_info    0x00005319      0xae3 src/libraries/AutoPID/AutoPID.o
- .debug_info    0x00005dfc     0x1508 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
- .debug_info    0x00007304      0x5a5 src/libraries/MAX6675/max6675.o
- .debug_info    0x000078a9     0x2505 src/libraries/MyMenu/MyMenu.o
- .debug_info    0x00009dae      0x41a src/libraries/RotaryEncoder/RotaryEncoder.o
- .debug_info    0x0000a1c8      0x98f src/libraries/SimpleTimer/SimpleTimer.o
- .debug_info    0x0000ab57      0x604 src/libraries/Wire/src/utility/twi.o
- .debug_info    0x0000b15b     0x27b4 src/libraries/Wire/src/Wire.o
- .debug_info    0x0000d90f      0x491 Thermometer/Thermometer.o
- .debug_info    0x0000dda0      0x237 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x0000dfd7      0x11c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_info    0x0000e0f3     0x28ff R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x000109f2      0x21c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_info    0x00010c0e      0x2cb R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x00010ed9      0x5fe R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x000114d7     0x4338 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_info    0x0001580f       0x3e R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_info    0x0001584d       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
- .debug_info    0x000158f9       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_info    0x00001b2a     0x3ad1 Sketch.o
+ .debug_info    0x000055fb      0xae3 src/libraries/AutoPID/AutoPID.o
+ .debug_info    0x000060de     0x1508 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+ .debug_info    0x000075e6      0x5a5 src/libraries/MAX6675/max6675.o
+ .debug_info    0x00007b8b     0x2505 src/libraries/MyMenu/MyMenu.o
+ .debug_info    0x0000a090      0x41a src/libraries/RotaryEncoder/RotaryEncoder.o
+ .debug_info    0x0000a4aa      0x98f src/libraries/SimpleTimer/SimpleTimer.o
+ .debug_info    0x0000ae39      0x604 src/libraries/Wire/src/utility/twi.o
+ .debug_info    0x0000b43d     0x27b4 src/libraries/Wire/src/Wire.o
+ .debug_info    0x0000dbf1      0x491 Thermometer/Thermometer.o
+ .debug_info    0x0000e082      0x237 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x0000e2b9      0x11c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_info    0x0000e3d5     0x28ff D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x00010cd4      0x21c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_info    0x00010ef0      0x2cb D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x000111bb      0x5fe D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x000117b9     0x4338 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_info    0x00015af1       0x3e D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x00015b2f       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
 
-.debug_abbrev   0x00000000     0x3d11
+.debug_abbrev   0x00000000     0x3d01
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5/crtatmega328p.o
  .debug_abbrev  0x000005a2      0x300 Dimmer/Dimmer.o
  .debug_abbrev  0x000008a2      0x1e2 Dimmer/DimmerItem.o
  .debug_abbrev  0x00000a84      0x223 Display/Display16x2.o
- .debug_abbrev  0x00000ca7      0x59b Sketch.o
- .debug_abbrev  0x00001242      0x2b4 src/libraries/AutoPID/AutoPID.o
- .debug_abbrev  0x000014f6      0x356 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
- .debug_abbrev  0x0000184c      0x271 src/libraries/MAX6675/max6675.o
- .debug_abbrev  0x00001abd      0x4cb src/libraries/MyMenu/MyMenu.o
- .debug_abbrev  0x00001f88      0x1a5 src/libraries/RotaryEncoder/RotaryEncoder.o
- .debug_abbrev  0x0000212d      0x2de src/libraries/SimpleTimer/SimpleTimer.o
- .debug_abbrev  0x0000240b      0x260 src/libraries/Wire/src/utility/twi.o
- .debug_abbrev  0x0000266b      0x581 src/libraries/Wire/src/Wire.o
- .debug_abbrev  0x00002bec      0x1ff Thermometer/Thermometer.o
- .debug_abbrev  0x00002deb      0x12d R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x00002f18       0xce R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_abbrev  0x00002fe6      0x47a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00003460       0xfc R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_abbrev  0x0000355c      0x146 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x000036a2      0x15b R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x000037fd      0x4c2 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_abbrev  0x00003cbf       0x2a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_abbrev  0x00003ce9       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
- .debug_abbrev  0x00003cfd       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_abbrev  0x00000ca7      0x59f Sketch.o
+ .debug_abbrev  0x00001246      0x2b4 src/libraries/AutoPID/AutoPID.o
+ .debug_abbrev  0x000014fa      0x356 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+ .debug_abbrev  0x00001850      0x271 src/libraries/MAX6675/max6675.o
+ .debug_abbrev  0x00001ac1      0x4cb src/libraries/MyMenu/MyMenu.o
+ .debug_abbrev  0x00001f8c      0x1a5 src/libraries/RotaryEncoder/RotaryEncoder.o
+ .debug_abbrev  0x00002131      0x2de src/libraries/SimpleTimer/SimpleTimer.o
+ .debug_abbrev  0x0000240f      0x260 src/libraries/Wire/src/utility/twi.o
+ .debug_abbrev  0x0000266f      0x581 src/libraries/Wire/src/Wire.o
+ .debug_abbrev  0x00002bf0      0x1ff Thermometer/Thermometer.o
+ .debug_abbrev  0x00002def      0x12d D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00002f1c       0xce D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_abbrev  0x00002fea      0x47a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00003464       0xfc D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_abbrev  0x00003560      0x146 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x000036a6      0x15b D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00003801      0x4c2 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_abbrev  0x00003cc3       0x2a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00003ced       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
 
-.debug_line     0x00000000     0x5db2
+.debug_line     0x00000000     0x5d56
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x133 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_line    0x00000133      0x2a5 Dimmer/Dimmer.o
- .debug_line    0x000003d8      0x189 Dimmer/DimmerItem.o
- .debug_line    0x00000561      0x364 Display/Display16x2.o
- .debug_line    0x000008c5      0x6ef Sketch.o
- .debug_line    0x00000fb4      0x41c src/libraries/AutoPID/AutoPID.o
- .debug_line    0x000013d0      0x715 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
- .debug_line    0x00001ae5      0x2df src/libraries/MAX6675/max6675.o
- .debug_line    0x00001dc4      0x781 src/libraries/MyMenu/MyMenu.o
- .debug_line    0x00002545      0x29f src/libraries/RotaryEncoder/RotaryEncoder.o
- .debug_line    0x000027e4      0x442 src/libraries/SimpleTimer/SimpleTimer.o
- .debug_line    0x00002c26      0x52e src/libraries/Wire/src/utility/twi.o
- .debug_line    0x00003154      0x608 src/libraries/Wire/src/Wire.o
- .debug_line    0x0000375c      0x19b Thermometer/Thermometer.o
- .debug_line    0x000038f7      0x17a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_line    0x00003a71      0x12f R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_line    0x00003ba0      0x69a R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x0000423a      0x1b5 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_line    0x000043ef      0x2ae R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x0000469d      0x267 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_line    0x00004904     0x1355 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_line    0x00005c59       0x41 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_line    0x00005c9a       0x7a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
- .debug_line    0x00005d14       0x9e C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_line    0x00000133      0x2a4 Dimmer/Dimmer.o
+ .debug_line    0x000003d7      0x189 Dimmer/DimmerItem.o
+ .debug_line    0x00000560      0x364 Display/Display16x2.o
+ .debug_line    0x000008c4      0x732 Sketch.o
+ .debug_line    0x00000ff6      0x41c src/libraries/AutoPID/AutoPID.o
+ .debug_line    0x00001412      0x715 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+ .debug_line    0x00001b27      0x2df src/libraries/MAX6675/max6675.o
+ .debug_line    0x00001e06      0x781 src/libraries/MyMenu/MyMenu.o
+ .debug_line    0x00002587      0x29f src/libraries/RotaryEncoder/RotaryEncoder.o
+ .debug_line    0x00002826      0x442 src/libraries/SimpleTimer/SimpleTimer.o
+ .debug_line    0x00002c68      0x52e src/libraries/Wire/src/utility/twi.o
+ .debug_line    0x00003196      0x608 src/libraries/Wire/src/Wire.o
+ .debug_line    0x0000379e      0x19b Thermometer/Thermometer.o
+ .debug_line    0x00003939      0x17a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00003ab3      0x12f D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_line    0x00003be2      0x69a D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x0000427c      0x1b5 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_line    0x00004431      0x2ae D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x000046df      0x267 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00004946     0x1355 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_line    0x00005c9b       0x41 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x00005cdc       0x7a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
 
-.debug_frame    0x00000000     0x2390
+.debug_frame    0x00000000     0x2388
  *(.debug_frame)
  .debug_frame   0x00000000       0xbc Dimmer/Dimmer.o
  .debug_frame   0x000000bc       0x50 Dimmer/DimmerItem.o
  .debug_frame   0x0000010c       0xe8 Display/Display16x2.o
- .debug_frame   0x000001f4      0x1c8 Sketch.o
- .debug_frame   0x000003bc      0x234 src/libraries/AutoPID/AutoPID.o
- .debug_frame   0x000005f0      0x29c src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
- .debug_frame   0x0000088c       0x98 src/libraries/MAX6675/max6675.o
- .debug_frame   0x00000924      0x2e0 src/libraries/MyMenu/MyMenu.o
- .debug_frame   0x00000c04       0x7c src/libraries/RotaryEncoder/RotaryEncoder.o
- .debug_frame   0x00000c80      0x1e4 src/libraries/SimpleTimer/SimpleTimer.o
- .debug_frame   0x00000e64      0x134 src/libraries/Wire/src/utility/twi.o
- .debug_frame   0x00000f98      0x284 src/libraries/Wire/src/Wire.o
- .debug_frame   0x0000121c       0x68 Thermometer/Thermometer.o
- .debug_frame   0x00001284       0x54 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x000012d8       0x54 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_frame   0x0000132c      0x3ac R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x000016d8       0xf4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_frame   0x000017cc       0xc4 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x00001890       0x7c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_frame   0x0000190c      0xa60 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_frame   0x0000236c       0x24 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x000001f4      0x1c0 Sketch.o
+ .debug_frame   0x000003b4      0x234 src/libraries/AutoPID/AutoPID.o
+ .debug_frame   0x000005e8      0x29c src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+ .debug_frame   0x00000884       0x98 src/libraries/MAX6675/max6675.o
+ .debug_frame   0x0000091c      0x2e0 src/libraries/MyMenu/MyMenu.o
+ .debug_frame   0x00000bfc       0x7c src/libraries/RotaryEncoder/RotaryEncoder.o
+ .debug_frame   0x00000c78      0x1e4 src/libraries/SimpleTimer/SimpleTimer.o
+ .debug_frame   0x00000e5c      0x134 src/libraries/Wire/src/utility/twi.o
+ .debug_frame   0x00000f90      0x284 src/libraries/Wire/src/Wire.o
+ .debug_frame   0x00001214       0x68 Thermometer/Thermometer.o
+ .debug_frame   0x0000127c       0x54 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x000012d0       0x54 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_frame   0x00001324      0x3ac D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x000016d0       0xf4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_frame   0x000017c4       0xc4 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x00001888       0x7c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x00001904      0xa60 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_frame   0x00002364       0x24 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
 
-.debug_str      0x00000000     0x461a
+.debug_str      0x00000000     0x4674
  *(.debug_str)
  .debug_str     0x00000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.209/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_str     0x00000208      0x749 Dimmer/Dimmer.o
-                                0x7d2 (size before relaxing)
- .debug_str     0x00000951       0x55 Dimmer/DimmerItem.o
+ .debug_str     0x00000208      0x746 Dimmer/Dimmer.o
+                                0x7cf (size before relaxing)
+ .debug_str     0x0000094e       0xb2 Dimmer/DimmerItem.o
                                 0x358 (size before relaxing)
- .debug_str     0x000009a6      0x26f Display/Display16x2.o
+ .debug_str     0x00000a00      0x26f Display/Display16x2.o
                                 0x4fe (size before relaxing)
- .debug_str     0x00000c15     0x174d Sketch.o
-                               0x2134 (size before relaxing)
- .debug_str     0x00002362      0x106 src/libraries/AutoPID/AutoPID.o
+ .debug_str     0x00000c6f     0x1747 Sketch.o
+                               0x2167 (size before relaxing)
+ .debug_str     0x000023b6      0x106 src/libraries/AutoPID/AutoPID.o
                                 0x5e3 (size before relaxing)
- .debug_str     0x00002468      0x8a9 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+ .debug_str     0x000024bc      0x8a3 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
                                 0xc1c (size before relaxing)
- .debug_str     0x00002d11       0x80 src/libraries/MAX6675/max6675.o
+ .debug_str     0x00002d5f       0x80 src/libraries/MAX6675/max6675.o
                                 0x3ce (size before relaxing)
- .debug_str     0x00002d91      0x256 src/libraries/MyMenu/MyMenu.o
-                               0x130a (size before relaxing)
- .debug_str     0x00002fe7       0x69 src/libraries/RotaryEncoder/RotaryEncoder.o
+ .debug_str     0x00002ddf      0x256 src/libraries/MyMenu/MyMenu.o
+                               0x1307 (size before relaxing)
+ .debug_str     0x00003035       0x75 src/libraries/RotaryEncoder/RotaryEncoder.o
                                 0x3df (size before relaxing)
- .debug_str     0x00003050       0x6c src/libraries/SimpleTimer/SimpleTimer.o
+ .debug_str     0x000030aa       0x6c src/libraries/SimpleTimer/SimpleTimer.o
                                 0x5e0 (size before relaxing)
- .debug_str     0x000030bc      0x2b2 src/libraries/Wire/src/utility/twi.o
+ .debug_str     0x00003116      0x2b2 src/libraries/Wire/src/utility/twi.o
                                 0x3d6 (size before relaxing)
- .debug_str     0x0000336e      0x898 src/libraries/Wire/src/Wire.o
+ .debug_str     0x000033c8      0x898 src/libraries/Wire/src/Wire.o
                                0x18cd (size before relaxing)
- .debug_str     0x00003c06       0x5e Thermometer/Thermometer.o
+ .debug_str     0x00003c60       0x5e Thermometer/Thermometer.o
                                 0x444 (size before relaxing)
- .debug_str     0x00003c64       0xb5 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00003cbe       0xb5 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
                                 0x2ba (size before relaxing)
- .debug_str     0x00003d19       0x50 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_str     0x00003d73       0x50 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
                                 0x1d0 (size before relaxing)
- .debug_str     0x00003d69      0x37c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_str     0x00003dc3      0x37c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                                0x1248 (size before relaxing)
- .debug_str     0x000040e5       0x72 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_str     0x0000413f       0x72 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
                                 0x23d (size before relaxing)
- .debug_str     0x00004157       0x60 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x000041b1       0x60 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                                 0x250 (size before relaxing)
- .debug_str     0x000041b7       0xb0 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x00004211       0xb0 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                                 0x2b5 (size before relaxing)
- .debug_str     0x00004267      0x397 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_str     0x000042c1      0x397 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                                0x119b (size before relaxing)
- .debug_str     0x000045fe       0x1c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x00004658       0x1c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
                                 0x145 (size before relaxing)
 
-.debug_loc      0x00000000     0xb90a
+.debug_loc      0x00000000     0xb8b4
  *(.debug_loc)
  .debug_loc     0x00000000      0x2c0 Dimmer/Dimmer.o
  .debug_loc     0x000002c0       0xe7 Dimmer/DimmerItem.o
  .debug_loc     0x000003a7      0x3b9 Display/Display16x2.o
- .debug_loc     0x00000760      0x56e Sketch.o
- .debug_loc     0x00000cce      0x74b src/libraries/AutoPID/AutoPID.o
- .debug_loc     0x00001419      0xb09 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
- .debug_loc     0x00001f22      0x395 src/libraries/MAX6675/max6675.o
- .debug_loc     0x000022b7      0xf39 src/libraries/MyMenu/MyMenu.o
- .debug_loc     0x000031f0      0x33a src/libraries/RotaryEncoder/RotaryEncoder.o
- .debug_loc     0x0000352a      0x8ef src/libraries/SimpleTimer/SimpleTimer.o
- .debug_loc     0x00003e19      0x3e6 src/libraries/Wire/src/utility/twi.o
- .debug_loc     0x000041ff      0xbfd src/libraries/Wire/src/Wire.o
- .debug_loc     0x00004dfc      0x150 Thermometer/Thermometer.o
- .debug_loc     0x00004f4c       0x4c R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_loc     0x00004f98     0x1c87 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x00006c1f      0x235 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_loc     0x00006e54      0x28d R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x000070e1      0x5fc R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_loc     0x000076dd     0x422d R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_loc     0x00000760      0x518 Sketch.o
+ .debug_loc     0x00000c78      0x74b src/libraries/AutoPID/AutoPID.o
+ .debug_loc     0x000013c3      0xb09 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o
+ .debug_loc     0x00001ecc      0x395 src/libraries/MAX6675/max6675.o
+ .debug_loc     0x00002261      0xf39 src/libraries/MyMenu/MyMenu.o
+ .debug_loc     0x0000319a      0x33a src/libraries/RotaryEncoder/RotaryEncoder.o
+ .debug_loc     0x000034d4      0x8ef src/libraries/SimpleTimer/SimpleTimer.o
+ .debug_loc     0x00003dc3      0x3e6 src/libraries/Wire/src/utility/twi.o
+ .debug_loc     0x000041a9      0xbfd src/libraries/Wire/src/Wire.o
+ .debug_loc     0x00004da6      0x150 Thermometer/Thermometer.o
+ .debug_loc     0x00004ef6       0x4c D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_loc     0x00004f42     0x1c87 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00006bc9      0x235 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_loc     0x00006dfe      0x28d D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x0000708b      0x5fc D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00007687     0x422d D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -2378,14 +2366,14 @@ END GROUP
  .debug_ranges  0x00000470       0x70 src/libraries/Wire/src/utility/twi.o
  .debug_ranges  0x000004e0       0xe8 src/libraries/Wire/src/Wire.o
  .debug_ranges  0x000005c8       0x20 Thermometer/Thermometer.o
- .debug_ranges  0x000005e8       0x20 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_ranges  0x00000608       0x18 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_ranges  0x00000620      0x120 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_ranges  0x00000740       0x30 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_ranges  0x00000770       0x38 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_ranges  0x000007a8       0x28 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_ranges  0x000007d0      0x2f8 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_ranges  0x00000ac8       0x10 R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x000005e8       0x20 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000608       0x18 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_ranges  0x00000620      0x120 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x00000740       0x30 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_ranges  0x00000770       0x38 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x000007a8       0x28 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x000007d0      0x2f8 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_ranges  0x00000ac8       0x10 D:\Project\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
 
 .debug_macro
  *(.debug_macro)

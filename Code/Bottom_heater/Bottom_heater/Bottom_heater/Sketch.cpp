@@ -110,8 +110,15 @@ void setup() {
 	_setTempDown = EEPROM.read(memoryDownTempAdress);
 
 	//инициализация меню
-	_menu = new Menu(CreateMenuItems(), menuItems, _lcd, MenuCallback,numRowsLcd, ">");
-
+	MItm items[menuItems] = {
+		MItm("SETTINGS",0,0), //этот пункт является заголовком подменю с индексом 0 (то есть главного меню)
+		MItm("ON/OFF",1), //пункт главного меню, который при выборе переходит на подменю с индексом 1
+		MItm("Set temp in up",2), //с индексом 2
+		MItm("Set temp in down",3), //и с индексом 3 соответственно
+		MItm(" <<Exit",4) //вот так можно создавать кнопку "Назад"
+	};
+	_menu = new Menu(items/*CreateMenuItems()*/, menuItems, _lcd, MenuCallback,numRowsLcd, ">");
+	_menu->goMain();
 	//инициализация таймера
 	_timerHeating = new SimpleTimer();
 	_timerHeatingId =_timerHeating->setInterval(timerInterval,TimerHeatingInterrupt);
@@ -184,10 +191,20 @@ void DisplayUpdate()
 void EncoderUpdate()
 {
 	int enc = _encoder->readEncoder();
-	int changevalue = 1;
 
 	if(_menuActive)
 	{
+		if(enc>0)
+		{
+			_lcd->print("enc up");
+			delay(1000);
+		}
+		if(enc<0)
+		{
+			_lcd->print("enc down");
+			delay(1000);
+		}
+		return;
 		//действие с пунктами меню
 		if(_curMenuIndex==1)//включить/выключить нагревателя
 		{
@@ -266,7 +283,7 @@ void UpdateTempVal(double& val, int delta)
 
 void MenuCallback(int index)
 {
-	_curMenuIndex = index;
+	//_curMenuIndex = index;
 }
 
 MItm* CreateMenuItems()

@@ -233,9 +233,9 @@ void Menu::drawSub(){
 	int page = floor(cur_sub_index/(num_rows-1));
 	int line = 1;
 	
-	(*lcd).clear();
-	(*lcd).setCursor(0,0);
-	(*lcd).print(title+":");
+	lcd->clear();
+	lcd->setCursor(0,0);
+	lcd->print(title+":");
 	
 	for(int i=0; i<fullsize; i++){
 		MItm citem = items[i];
@@ -257,11 +257,11 @@ void Menu::drawSub(){
 			}
 			
 			if(begin_draw && line < num_rows){
-				(*lcd).setCursor(0,line);
+				lcd->setCursor(0,line);
 				if(i == cur_item){
-					(*lcd).print(cursor+citem.name);
+					lcd->print(cursor+citem.name);
 				}else{
-					(*lcd).print(String("                    ").substring(1,cursor.length()+1)+citem.name);
+					lcd->print(String("                    ").substring(1,cursor.length()+1)+citem.name);
 				}
 				line++;
 			}
