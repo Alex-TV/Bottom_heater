@@ -35,8 +35,9 @@ Display/Display16x2.d Display/Display16x2.o: ../Display/Display16x2.cpp \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/pins_arduino.h \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h \
+ ../Display/Display16x2.h \
  ../include/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.h \
- ..\\..\ArduinoCore\include\core/Print.h ../Display/Display16x2.h
+ ..\\..\ArduinoCore\include\core/Print.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -110,8 +111,8 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h:
 
+../Display/Display16x2.h:
+
 ../include/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.h:
 
 ..\\..\ArduinoCore\include\core/Print.h:
-
-../Display/Display16x2.h:

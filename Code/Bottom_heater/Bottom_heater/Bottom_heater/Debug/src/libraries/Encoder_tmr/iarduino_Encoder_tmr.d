@@ -1,7 +1,7 @@
-src/libraries/RotaryEncoder/RotaryEncoder.d \
- src/libraries/RotaryEncoder/RotaryEncoder.o: \
- ../src/libraries/RotaryEncoder/RotaryEncoder.cpp \
- ../include/libraries/RotaryEncoder/RotaryEncoder.h \
+src/libraries/Encoder_tmr/iarduino_Encoder_tmr.d \
+ src/libraries/Encoder_tmr/iarduino_Encoder_tmr.o: \
+ ../src/libraries/Encoder_tmr/iarduino_Encoder_tmr.cpp \
+ ../include/libraries/Encoder_tmr/iarduino_Encoder_tmr.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
@@ -39,7 +39,7 @@ src/libraries/RotaryEncoder/RotaryEncoder.d \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/pins_arduino.h \
  ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h
 
-../include/libraries/RotaryEncoder/RotaryEncoder.h:
+../include/libraries/Encoder_tmr/iarduino_Encoder_tmr.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 

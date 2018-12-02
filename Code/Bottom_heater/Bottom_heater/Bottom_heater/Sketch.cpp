@@ -1,36 +1,42 @@
 ﻿/*Begining of Auto generated code by Atmel studio */
 #include <Arduino.h>
-#include <AutoPID.h>
-#include <EEPROM.h>
-#include <RotaryEncoder.h>
+#include <PID_v1.h>
+#include <iarduino_Encoder_tmr.h>
 #include <LiquidCrystal_I2C.h>
-#include <MyMenu.h>
 #include <SimpleTimer.h>
 #include "Dimmer/Dimmer.h"
 #include "Thermometer/Thermometer.h"
 #include "Display/Display16x2.h"
+#include "Menu/Menu.h"
+#include "Menu/IMenuItem.h"
+#include "Menu/MenuItem.h"
+#include "Menu/MenuActionItem.h"
+#include "Menu/MenuBoolItem.h"
+#include "Menu/MenuIntItem.h"
+#include "Menu/MenuDoubleItem.h"
+#include "Extensions/EepromExtension.h"
+
 /*End of auto generated code by Atmel studio */
 //Beginning of Auto generated function prototypes by Atmel Studio
 //End of Auto generated function prototypes by Atmel Studio
 #define dimDownPin 4
 #define dimUpPin 3
 #define zeroPin 2
-#define encoderAPin 11
-#define encoderBPin 12
-#define encoderButtonPin 10
+#define encoderAPin 5
+#define encoderBPin 6
+#define encoderButtonPin 7
 
-#define therPinDO 5
-#define therPinCS 6
-#define therPinCLK 7
+#define therPinDO 10
+#define therPinCS 11
+#define therPinCLK 12
 #define OUTPUT_MIN 0
 #define OUTPUT_MAX 255
-#define KP .12
-#define KI .0003
-#define KD 0
-#define KD 0
+#define KP 2
+#define KI 5
+#define KD 1
 
 #define memoryUpTempAdress 0
-#define memoryDownTempAdress 1
+#define memoryDownTempAdress 2
 
 #define numRowsLcd 2
 #define numColsLcd 16
@@ -40,9 +46,9 @@
 #define minTemp 0
 
 #define timerInterval 100000
+#define timerUpdateTemperatureInterval 1000
 
-void MenuCallback(int);
-MItm* CreateMenuItems();
+void CreateMenuItems();
 void UpdateTempVal(double& val, int delta);
 void EncoderUpdate();
 void DisplayUpdate();
@@ -50,32 +56,35 @@ void HeatingUpdate();
 void EncoderButtonUpdate();
 void TimerHeatingInterrupt();
 void SaveSettingsInEeprom();
+void ExitMenuClick();
+void TimerUpdateTemperature();
+void StartMenuClick();
+void StopMenuClick();
 
 Dimmer* _dimmer;
 Thermometer* _thermometer;
 Display16x2* _display;
-AutoPID* _pidUp;
-AutoPID* _pidDown;
-RotaryEncoder* _encoder;
+PID* _pidUp;
+PID* _pidDown;
+iarduino_Encoder_tmr* _encoder;
 LiquidCrystal_I2C* _lcd;
 Menu* _menu;
 SimpleTimer* _timerHeating;
+EepromExtension*   _eeprom;
 
-double _tempUp = 0;
-double _tempDown = 0;
-double _setTempUp = 0;
-double _setTempDown = 0;
-double _outputUpVal = 0;
-double _outputDownVal = 0;
-bool _heaterOn = false;
-bool _menuActive = true;
-int _curMenuIndex=0;
-bool _regulationUp = false;
-bool _regulationDown = true;
-int _pidUpVal =0;
-int _pidDownVal =0;
-int _pidOldDownVal =0;
-int _timerHeatingId;
+double _tempUp=0;
+double _tempDown=0;
+double _setTempUp=150;
+double _setTempDown=25;
+double _outputUpVal=0;
+double _outputDownVal=0;
+bool _heaterOn=false;
+bool _menuActive=true;
+bool _regulationUp=false;
+bool _regulationDown=true;
+int _pidOldDownVal=0;
+int _timerHeatingId=0;
+int _timerUpdateTemperatureId=0;
 
 void setup() {
 	//инициализация димира
@@ -90,38 +99,24 @@ void setup() {
 	_lcd->clear();
 	_display = new Display16x2(_lcd);
 	//инициализация энкодера
-	_encoder = new RotaryEncoder(encoderAPin,encoderBPin,5,6,1000);
+	_encoder = new iarduino_Encoder_tmr(encoderAPin,encoderBPin);
+	_encoder->begin();
 	pinMode(encoderButtonPin, INPUT);
 	//инициализация pid
-	_pidUp = new AutoPID(&_tempUp, &_setTempUp, &_outputUpVal, OUTPUT_MIN, OUTPUT_MAX, KP, KI, KD);
-	// если температура выше 4 градусов ниже или выше заданного значения, OUTPUT будет установлен на мин или макс соответственно
-	_pidUp->setBangBang(4);
-	//set PID update interval to 4000ms
-	_pidUp->setTimeStep(4000);
-	
-	_pidDown = new AutoPID(&_tempDown, &_setTempDown, &_outputDownVal, OUTPUT_MIN, OUTPUT_MAX, KP, KI, KD);
-	// если температура выше 4 градусов ниже или выше заданного значения, OUTPUT будет установлен на мин или макс соответственно
-	_pidDown->setBangBang(4);
-	//set PID update interval to 4000ms
-	_pidDown->setTimeStep(4000);
-	
+	_pidUp = new PID(&_tempUp, &_outputUpVal,&_setTempUp, KP, KI, KD, DIRECT);
+	_pidUp->SetMode(AUTOMATIC);
+	_pidDown = new PID(&_tempDown, &_outputDownVal,&_setTempDown,  2, 5, 1, DIRECT);
+	_pidDown->SetMode(AUTOMATIC);
 	//утсановленая температура	(должно устанавливатся в настройках)
-	_setTempUp = EEPROM.read(memoryUpTempAdress);
-	_setTempDown = EEPROM.read(memoryDownTempAdress);
-
+	_eeprom = new EepromExtension();
+	_setTempUp = _eeprom->IntRead(memoryUpTempAdress);
+	_setTempDown = _eeprom->IntRead(memoryDownTempAdress);
 	//инициализация меню
-	MItm items[menuItems] = {
-		MItm("SETTINGS",0,0), //этот пункт является заголовком подменю с индексом 0 (то есть главного меню)
-		MItm("ON/OFF",1), //пункт главного меню, который при выборе переходит на подменю с индексом 1
-		MItm("Set temp in up",2), //с индексом 2
-		MItm("Set temp in down",3), //и с индексом 3 соответственно
-		MItm(" <<Exit",4) //вот так можно создавать кнопку "Назад"
-	};
-	_menu = new Menu(items/*CreateMenuItems()*/, menuItems, _lcd, MenuCallback,numRowsLcd, ">");
-	_menu->goMain();
+	CreateMenuItems();
 	//инициализация таймера
 	_timerHeating = new SimpleTimer();
 	_timerHeatingId =_timerHeating->setInterval(timerInterval,TimerHeatingInterrupt);
+	_timerUpdateTemperatureId =_timerHeating->setInterval(timerUpdateTemperatureInterval,TimerUpdateTemperature);
 }
 
 void loop()
@@ -129,7 +124,6 @@ void loop()
 	_timerHeating->run();
 	_dimmer->Update();
 	HeatingUpdate();
-	DisplayUpdate();
 	EncoderUpdate();
 	EncoderButtonUpdate();
 }
@@ -137,37 +131,42 @@ void loop()
 void TimerHeatingInterrupt()
 {
 	_timerHeating->restartTimer(_timerHeatingId);
-	if(_heaterOn && _regulationDown)
+	
+	if(!_heaterOn) return;
+	if(!_regulationDown) return;
+
+	if(abs(_setTempDown - _tempDown)<2
+	&& _outputDownVal > OUTPUT_MIN
+	&& _outputDownVal < OUTPUT_MAX
+	&& abs(_pidOldDownVal-_outputDownVal)<5)
 	{
-		if(abs(_pidOldDownVal-_pidDownVal)<10)
-		{
-			_regulationDown = false;
-			_regulationUp = true;
-		}
-		_pidOldDownVal = _pidDownVal;
+		_regulationDown = false;
+		_regulationUp = true;
 	}
+	_pidOldDownVal = _outputDownVal;
+}
+
+void TimerUpdateTemperature()
+{
+	_timerHeating->restartTimer(_timerUpdateTemperatureId);
+	_tempDown = _thermometer->Read();
+	_tempUp = 0;
+	DisplayUpdate();
 }
 
 void HeatingUpdate()
 {
 	if(_heaterOn)
 	{
-		_tempDown = _thermometer->Read();
-		_tempUp = 0;
-
 		if(_regulationUp)
 		{
-			_pidUp->run();
-			_pidUpVal = _pidUp->atSetPoint(1);
+			_pidUp-> Compute();
 		}
-		
 		if(_regulationDown)
 		{
-			_pidDown->run();
-			_pidDownVal = _pidDown->atSetPoint(1);
+			_pidDown->Compute();
 		}
-
-		int itemValues[2]{_pidUpVal,_pidDownVal};
+		int itemValues[2]{_outputUpVal,_outputDownVal};
 		_dimmer->UpdateItemValue(itemValues);
 	}
 	else
@@ -180,97 +179,64 @@ void HeatingUpdate()
 void DisplayUpdate()
 {
 	if(_menuActive) return;
-	_display->ClearEdit(0);
-	int powerUp = (int)((float)_pidUpVal/(float)OUTPUT_MAX*(float)100);
-	_display->PrintLineValues(0,_setTempUp,_tempUp,powerUp);
-	_display->ClearEdit(1);
-	int powerDown = (int)((float)_pidDownVal/(float)OUTPUT_MAX*(float)100);
-	_display->PrintLineValues(1,_setTempDown,_tempDown,powerDown);
+	int powerUp = (int)((float)_outputUpVal/(float)OUTPUT_MAX*(float)100);
+	_display->PrintLineValues(0, _setTempUp, _tempUp, powerUp);
+	int powerDown =(int)((float)_outputDownVal/(float)OUTPUT_MAX*(float)100);
+	_display->PrintLineValues(1, _setTempDown, _tempDown, powerDown);
 }
 
 void EncoderUpdate()
 {
-	int enc = _encoder->readEncoder();
-
+	int enc = _encoder->read();
+	//листание меню
 	if(_menuActive)
 	{
-		if(enc>0)
+		if(enc == encLEFT)
 		{
-			_lcd->print("enc up");
-			delay(1000);
+			_menu->GoUp();
 		}
-		if(enc<0)
+		else if(enc == encRIGHT)
 		{
-			_lcd->print("enc down");
-			delay(1000);
-		}
-		return;
-		//действие с пунктами меню
-		if(_curMenuIndex==1)//включить/выключить нагревателя
-		{
-			if(enc != 0)
-			{
-				_heaterOn = !_heaterOn;
-			}
-			_display->PrintEditBool(_heaterOn);
-
-		}
-		else if(_curMenuIndex ==2)//настройка температуры верхнего нагревателя
-		{
-			UpdateTempVal(_tempUp, enc);
-			_display->PrintEditInt(_tempUp);
-		}
-		else if(_curMenuIndex==3)//настройка температуры нижнего нагревателя
-		{
-			UpdateTempVal(_tempDown, enc);
-			_display->PrintEditInt(_tempUp);
-		}
-		else if (_curMenuIndex == 4)//выход из меню настроек
-		{
-			_curMenuIndex=0;
-			_menu->goBack();
-			_display->Clear();
-			_menuActive = false;
-			SaveSettingsInEeprom();
-		}
-		//листание меню
-		if(enc > 0)
-		{
-			_menu->goUp();
-		}
-		else if(enc<0)
-		{
-			_menu->goDown();
+			_menu->GoDown();
 		}
 	}
 }
 
 void SaveSettingsInEeprom()
 {
-	int saveUpPid = EEPROM.read(memoryUpTempAdress);
-	int saveDownPid = EEPROM.read(memoryDownTempAdress);
-	if(saveUpPid != _pidUpVal)
+	int saveTempUp = _eeprom->IntRead(memoryUpTempAdress);
+	int saveTempDown = _eeprom->IntRead(memoryDownTempAdress);
+	if(saveTempUp != _setTempUp)
 	{
-		EEPROM.write(memoryUpTempAdress,_pidUpVal);
+		_eeprom->IntWrite(memoryUpTempAdress,_setTempUp);
 	}
-	if(saveDownPid != _pidDownVal)
+	if(saveTempDown != _setTempDown)
 	{
-		EEPROM.write(memoryDownTempAdress,_pidDownVal);
+		_eeprom->IntWrite(memoryDownTempAdress,_setTempDown);
 	}
 }
+
+bool _buttonDown = false;
 
 void EncoderButtonUpdate()
 {
 	if(!digitalRead(encoderButtonPin))
 	{
+		_buttonDown = true;
+		return;
+	}
+	if(_buttonDown)
+	{
 		if(_menuActive)
 		{
-			_menu->goNext();
+			_menu->GoChoice();
 		}
 		else
 		{
 			_menuActive = true;
+			_menu->Begin();
 		}
+		_buttonDown = false;
 	}
 }
 
@@ -281,20 +247,45 @@ void UpdateTempVal(double& val, int delta)
 	val = max(val,minTemp);
 }
 
-void MenuCallback(int index)
+void CreateMenuItems()
 {
-	//_curMenuIndex = index;
+	IMenuItem** parItemMain = new IMenuItem*[5];
+	IMenuItem* mainMenu = new MenuItem("BOTTOM HEATER:", parItemMain,5, _lcd);
+	//parItemMain[0] = new MenuBoolItem("ON/OFF",&_heaterOn, mainMenu, _lcd);
+	parItemMain[0] = new MenuDoubleItem("SET TEMP UP",&_setTempUp,mainMenu, _lcd);
+	parItemMain[1] = new MenuDoubleItem("SET TEMP DOWN",&_setTempDown,mainMenu, _lcd);
+	parItemMain[2] = new MenuActionItem("<<START", mainMenu,StartMenuClick);
+	parItemMain[3] = new MenuActionItem("<<STOP", mainMenu,StopMenuClick);
+	parItemMain[4] = new MenuActionItem("<<EXIT", mainMenu,ExitMenuClick);
+	_menu = new Menu(mainMenu);
+	_menu->Begin();
 }
 
-MItm* CreateMenuItems()
+void StopMenuClick()
 {
-	MItm items[menuItems] = {
-		MItm("SETTINGS",0,0), //этот пункт является заголовком подменю с индексом 0 (то есть главного меню)
-		MItm("ON/OFF",1), //пункт главного меню, который при выборе переходит на подменю с индексом 1
-		MItm("Set temp in up",2), //с индексом 2
-		MItm("Set temp in down",3), //и с индексом 3 соответственно
-		MItm(" <<Exit",4) //вот так можно создавать кнопку "Назад"
-	};
-	return items;
+	_heaterOn = false;
+	_regulationUp=false;
+	_regulationDown=false;
+	_outputUpVal=0;
+	_outputDownVal=0;
+	ExitMenuClick();
 }
 
+void StartMenuClick()
+{
+	_heaterOn = true;
+	_regulationUp=false;
+	_regulationDown=true;
+	_outputUpVal=0;
+	_outputDownVal=0;
+	ExitMenuClick();
+}
+
+void ExitMenuClick()
+{
+	_menuActive = false;
+	_menu->GoChoice();
+	_menu->GoMain();
+	_lcd->clear();
+	SaveSettingsInEeprom();
+}

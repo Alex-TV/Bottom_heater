@@ -8,17 +8,31 @@ Dimmer\DimmerItem.cpp
 
 Display\Display16x2.cpp
 
+Extensions\EepromExtension.cpp
+
+Menu\Menu.cpp
+
+Menu\MenuActionItem.cpp
+
+Menu\MenuBoolItem.cpp
+
+Menu\MenuDoubleItem.cpp
+
+Menu\MenuIntItem.cpp
+
+Menu\MenuItem.cpp
+
 Sketch.cpp
 
 src\libraries\AutoPID\AutoPID.cpp
+
+src\libraries\Encoder_tmr\iarduino_Encoder_tmr.cpp
 
 src\libraries\LiquidCrystal_I2C\src\LiquidCrystal_I2C.cpp
 
 src\libraries\MAX6675\max6675.cpp
 
-src\libraries\MyMenu\MyMenu.cpp
-
-src\libraries\RotaryEncoder\RotaryEncoder.cpp
+src\libraries\PID\PID_v1.cpp
 
 src\libraries\SimpleTimer\SimpleTimer.cpp
 

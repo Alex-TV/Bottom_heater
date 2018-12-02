@@ -10,7 +10,8 @@
 // default constructor
 Thermometer::Thermometer(int pinDO, int pinCS,int pinCLK)
 {
-	_thermocouple = new MAX6675(pinDO, pinCS,pinCLK);
+	_thermocouple = new MAX6675(pinCLK, pinCS, pinDO);
+	delay(500);
 } //Thermometer
 
 double Thermometer:: Read() {
