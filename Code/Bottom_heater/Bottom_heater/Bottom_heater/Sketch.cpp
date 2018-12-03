@@ -26,6 +26,8 @@
 #define encoderBPin 6
 #define encoderButtonPin 7
 
+#define buzerPin 9
+
 #define therPinDO 10
 #define therPinCS 11
 #define therPinCLK 12
@@ -117,10 +119,13 @@ void setup() {
 	_timerHeating = new SimpleTimer();
 	_timerHeatingId =_timerHeating->setInterval(timerInterval,TimerHeatingInterrupt);
 	_timerUpdateTemperatureId =_timerHeating->setInterval(timerUpdateTemperatureInterval,TimerUpdateTemperature);
+	//инициализация бузера
+	pinMode(buzerPin, OUTPUT);
 }
 
 void loop()
 {
+	//analogWrite(buzerPin,127);
 	_timerHeating->run();
 	_dimmer->Update();
 	HeatingUpdate();
