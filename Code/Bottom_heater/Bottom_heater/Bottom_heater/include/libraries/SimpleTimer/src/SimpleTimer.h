@@ -74,6 +74,8 @@ public:
 
     // restart the specified timer
     void restartTimer(int numTimer);
+	
+	void updateInterval(int timerId, long d);
 
     // returns true if the specified timer is enabled
     boolean isEnabled(int numTimer);

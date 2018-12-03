@@ -265,6 +265,12 @@
     </PreBuildEvent>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Buzzer\Buzzer.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Buzzer\Buzzer.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Dimmer\Dimmer.cpp">
       <SubType>compile</SubType>
     </Compile>
@@ -418,6 +424,7 @@
     <Folder Include="include\libraries\Wire\src\utility\" />
     <Folder Include="Menu" />
     <Folder Include="Extensions" />
+    <Folder Include="Buzzer" />
     <Folder Include="src\libraries\Encoder_tmr\" />
     <Folder Include="src\libraries\LiquidCrystal_I2C\" />
     <Folder Include="src\libraries\LiquidCrystal_I2C\src\" />

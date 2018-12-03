@@ -17,11 +17,10 @@ class Dimmer
 	protected:
 	private:
 	int _zeroPin;
-	DimmerItem* _items;
-	SimpleTimer* _timer;
-	int* _itemValues;
-	int _tic;
-	int _timerId;
+	
+	
+
+
 	//functions
 	public:
 	Dimmer(int, DimmerItem*, int*);
@@ -32,9 +31,6 @@ class Dimmer
 	private:
 	Dimmer( const Dimmer &c );
 	Dimmer& operator=( const Dimmer &c );
-	void DetectUp();
-	void DetectDown();
-	void TimerInterrupt();
 	
 }; //Dimmer
 

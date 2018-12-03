@@ -52,6 +52,7 @@ SUBDIRS :=  \
 ../include/libraries/Wire/src/utility/ \
 ../Menu \
 ../Extensions \
+../Buzzer \
 ../src/libraries/Encoder_tmr/ \
 ../src/libraries/LiquidCrystal_I2C/ \
 ../src/libraries/LiquidCrystal_I2C/src/ \
@@ -69,6 +70,7 @@ SUBDIRS :=  \
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
+../Buzzer/Buzzer.cpp \
 ../Dimmer/Dimmer.cpp \
 ../Dimmer/DimmerItem.cpp \
 ../Display/Display16x2.cpp \
@@ -98,6 +100,7 @@ ASM_SRCS +=
 
 
 OBJS +=  \
+Buzzer/Buzzer.o \
 Dimmer/Dimmer.o \
 Dimmer/DimmerItem.o \
 Display/Display16x2.o \
@@ -120,6 +123,7 @@ src/libraries/Wire/src/Wire.o \
 Thermometer/Thermometer.o
 
 OBJS_AS_ARGS +=  \
+Buzzer/Buzzer.o \
 Dimmer/Dimmer.o \
 Dimmer/DimmerItem.o \
 Display/Display16x2.o \
@@ -142,6 +146,7 @@ src/libraries/Wire/src/Wire.o \
 Thermometer/Thermometer.o
 
 C_DEPS +=  \
+Buzzer/Buzzer.d \
 Dimmer/Dimmer.d \
 Dimmer/DimmerItem.d \
 Display/Display16x2.d \
@@ -164,6 +169,7 @@ src/libraries/Wire/src/Wire.d \
 Thermometer/Thermometer.d
 
 C_DEPS_AS_ARGS +=  \
+Buzzer/Buzzer.d \
 Dimmer/Dimmer.d \
 Dimmer/DimmerItem.d \
 Display/Display16x2.d \
@@ -194,12 +200,19 @@ ADDITIONAL_DEPENDENCIES:=
 OUTPUT_FILE_DEP:= ./makedep.mk
 
 LIB_DEP+=  \
-R:/AVR_Controller/Arduino/Bottom_heater/Code/Bottom_heater/Bottom_heater/ArduinoCore/Debug/libArduinoCore.a
+R:/AVR/arduino/Bottom_heater/Code/Bottom_heater/Bottom_heater/ArduinoCore/Debug/libArduinoCore.a
 
 LINKER_SCRIPT_DEP+= 
 
 
 # AVR32/GNU C Compiler
+Buzzer/Buzzer.o: ../Buzzer/Buzzer.cpp
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\include" -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\eightanaloginputs" -I"..\\..\ArduinoCore\include\variants\standard" -I"..\include\libraries\LiquidCrystal\examples\Blink\__vm" -I"..\include\libraries\LiquidCrystal\examples\CustomCharacter\__vm" -I"..\include\libraries\LiquidCrystal\examples\Display\Release" -I"..\include\libraries\LiquidCrystal\examples\Display\__vm" -I"../include/libraries/LiquidCrystal_I2C/src" -I"..\include\libraries\MAX6675" -I"../include/libraries/CyberLib" -I"..\include\libraries\AutoPID" -I"..\include\libraries\Wire\src" -I"..\include\libraries\Wire\src\utility" -I"..\include\libraries\EEPROM\src" -I"../include/libraries/RotaryEncoder" -I"../include/libraries/MyMenu" -I"../include/libraries/SimpleTimer/src" -I"../include/libraries/Encoder_tmr" -I"../include/libraries/PID"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -w -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega328p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
 Dimmer/Dimmer.o: ../Dimmer/Dimmer.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
@@ -366,7 +379,7 @@ all: $(OUTPUT_FILE_PATH) $(ADDITIONAL_DEPENDENCIES)
 $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP) $(LIB_DEP) $(LINKER_SCRIPT_DEP)
 	@echo Building target: $@
 	@echo Invoking: AVR8/GNU Linker : 5.4.0
-	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) -Wl,-Map="Bottom_heater.map" -Wl,--start-group -Wl,-lm -Wl,-lArduinoCore  -Wl,--end-group -Wl,-L"R:\AVR_Controller\Arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug"  -Wl,--gc-sections -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega328p" -Os  
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) -Wl,-Map="Bottom_heater.map" -Wl,--start-group -Wl,-lm -Wl,-lArduinoCore  -Wl,--end-group -Wl,-L"R:\AVR\arduino\Bottom_heater\Code\Bottom_heater\Bottom_heater\ArduinoCore\Debug"  -Wl,--gc-sections -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega328p" -Os  
 	@echo Finished building target: $@
 	"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures  "Bottom_heater.elf" "Bottom_heater.hex"
 	"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -j .eeprom  --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0  --no-change-warnings -O ihex "Bottom_heater.elf" "Bottom_heater.eep" || exit 0

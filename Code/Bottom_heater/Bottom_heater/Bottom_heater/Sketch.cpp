@@ -15,6 +15,7 @@
 #include "Menu/MenuIntItem.h"
 #include "Menu/MenuDoubleItem.h"
 #include "Extensions/EepromExtension.h"
+#include "Buzzer/Buzzer.h"
 
 /*End of auto generated code by Atmel studio */
 //Beginning of Auto generated function prototypes by Atmel Studio
@@ -49,6 +50,7 @@
 
 #define timerInterval 100000
 #define timerUpdateTemperatureInterval 1000
+#define clickBuzzerInterval 50
 
 void CreateMenuItems();
 void UpdateTempVal(double& val, int delta);
@@ -73,6 +75,7 @@ LiquidCrystal_I2C* _lcd;
 Menu* _menu;
 SimpleTimer* _timerHeating;
 EepromExtension*   _eeprom;
+Buzzer* _buzzer;
 
 double _tempUp=0;
 double _tempDown=0;
@@ -120,14 +123,14 @@ void setup() {
 	_timerHeatingId =_timerHeating->setInterval(timerInterval,TimerHeatingInterrupt);
 	_timerUpdateTemperatureId =_timerHeating->setInterval(timerUpdateTemperatureInterval,TimerUpdateTemperature);
 	//инициализация бузера
-	pinMode(buzerPin, OUTPUT);
+	_buzzer = new Buzzer(buzerPin);
 }
 
 void loop()
 {
-	//analogWrite(buzerPin,127);
 	_timerHeating->run();
 	_dimmer->Update();
+	_buzzer->Run();
 	HeatingUpdate();
 	EncoderUpdate();
 	EncoderButtonUpdate();
@@ -242,6 +245,7 @@ void EncoderButtonUpdate()
 			_menu->Begin();
 		}
 		_buttonDown = false;
+		_buzzer->BuzzerOn(clickBuzzerInterval);
 	}
 }
 
@@ -293,4 +297,5 @@ void ExitMenuClick()
 	_menu->GoMain();
 	_lcd->clear();
 	SaveSettingsInEeprom();
+	
 }

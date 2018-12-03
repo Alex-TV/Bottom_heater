@@ -154,6 +154,9 @@ int SimpleTimer::setTimer(long d, timer_callback f, int n) {
     return freeTimer;
 }
 
+ void SimpleTimer::updateInterval(int timerId, long d) {
+	  delays[timerId] = d;
+ }
 
 int SimpleTimer::setInterval(long d, timer_callback f) {
     return setTimer(d, f, RUN_FOREVER);
