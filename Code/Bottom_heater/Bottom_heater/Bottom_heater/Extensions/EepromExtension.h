@@ -34,6 +34,7 @@ class EepromExtension
 	void UIntWrite(int, unsigned int);
 	int IntRead(int);
 	void IntWrite(int, int);
+	void Clear();
 	protected:
 	private:
 	EepromExtension( const EepromExtension &c );

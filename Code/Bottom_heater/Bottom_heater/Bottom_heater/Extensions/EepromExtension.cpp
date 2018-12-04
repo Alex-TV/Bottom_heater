@@ -20,13 +20,22 @@ EepromExtension::~EepromExtension()
 
 uint8_t EepromExtension::Read(int address)
 {
-	EEPROM.read(address);
+	return EEPROM.read(address);
 }
 
 void EepromExtension::Write(int address, uint8_t val)
 {
 	EEPROM.write(address,val);
 }
+
+void EepromExtension::Clear()
+{
+	for (int i = 0 ; i < EEPROM.length() ; i++)
+	{
+		EEPROM.write(i, 0);
+	}
+}
+
 
 void EepromExtension::Update(int address, uint8_t val)
 {

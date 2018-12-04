@@ -40,6 +40,8 @@
 
 #define memoryUpTempAdress 0
 #define memoryDownTempAdress 2
+#define memoryClickSoundAdress 4
+#define memoryTempSetSoundAdress 5
 
 #define numRowsLcd 2
 #define numColsLcd 16
@@ -51,6 +53,7 @@
 #define timerInterval 100000
 #define timerUpdateTemperatureInterval 1000
 #define clickBuzzerInterval 50
+#define tempBuzzerInterval 200
 
 void CreateMenuItems();
 void UpdateTempVal(double& val, int delta);
@@ -64,6 +67,9 @@ void ExitMenuClick();
 void TimerUpdateTemperature();
 void StartMenuClick();
 void StopMenuClick();
+void CheckTempBeep();
+void ExitSoundMenuClick();
+void ReadSettingsInEeprom();
 
 Dimmer* _dimmer;
 Thermometer* _thermometer;
@@ -76,11 +82,16 @@ Menu* _menu;
 SimpleTimer* _timerHeating;
 EepromExtension*   _eeprom;
 Buzzer* _buzzer;
+//меню
+IMenuItem** _parItemMain;
+IMenuItem** _parSoundItemMain;
+IMenuItem* _mainMenu;
+IMenuItem* _soundSettingMenu;
 
 double _tempUp=0;
 double _tempDown=0;
-double _setTempUp=150;
-double _setTempDown=25;
+double _setTempUp=0;
+double _setTempDown=0;
 double _outputUpVal=0;
 double _outputDownVal=0;
 bool _heaterOn=false;
@@ -90,8 +101,13 @@ bool _regulationDown=true;
 int _pidOldDownVal=0;
 int _timerHeatingId=0;
 int _timerUpdateTemperatureId=0;
+bool _temUpBeepOn = true;
+bool _temDownBeepOn = true;
+bool _menuClickSound = true;
+bool _menuTempSetSound = true;
 
 void setup() {
+	Serial.begin(9600);
 	//инициализация димира
 	DimmerItem dimmerItems[2]{DimmerItem(dimUpPin),DimmerItem(dimDownPin)};
 	int itemValues[2]{0,0};
@@ -114,8 +130,8 @@ void setup() {
 	_pidDown->SetMode(AUTOMATIC);
 	//утсановленая температура	(должно устанавливатся в настройках)
 	_eeprom = new EepromExtension();
-	_setTempUp = _eeprom->IntRead(memoryUpTempAdress);
-	_setTempDown = _eeprom->IntRead(memoryDownTempAdress);
+	/*_eeprom->Clear();*/
+	ReadSettingsInEeprom();
 	//инициализация меню
 	CreateMenuItems();
 	//инициализация таймера
@@ -124,6 +140,7 @@ void setup() {
 	_timerUpdateTemperatureId =_timerHeating->setInterval(timerUpdateTemperatureInterval,TimerUpdateTemperature);
 	//инициализация бузера
 	_buzzer = new Buzzer(buzerPin);
+	
 }
 
 void loop()
@@ -159,7 +176,26 @@ void TimerUpdateTemperature()
 	_timerHeating->restartTimer(_timerUpdateTemperatureId);
 	_tempDown = _thermometer->Read();
 	_tempUp = 0;
+	CheckTempBeep();
 	DisplayUpdate();
+}
+
+void CheckTempBeep()
+{
+	if (!_menuTempSetSound) return;
+	if (_menuActive) return;
+	if (!_heaterOn) return;
+	
+	if (_temUpBeepOn && _tempUp >= _setTempUp && _regulationUp)
+	{
+		_buzzer->BuzzerOn(tempBuzzerInterval);
+		_temUpBeepOn = false;
+	}
+	if(_temDownBeepOn && _tempDown >= _setTempDown && _regulationDown)
+	{
+		_buzzer->BuzzerOn(tempBuzzerInterval);
+		_temDownBeepOn = false;
+	}
 }
 
 void HeatingUpdate()
@@ -210,10 +246,21 @@ void EncoderUpdate()
 	}
 }
 
+void ReadSettingsInEeprom()
+{
+	_setTempUp = _eeprom->IntRead(memoryUpTempAdress);
+	_setTempDown = _eeprom->IntRead(memoryDownTempAdress);
+	_menuClickSound = _eeprom->Read(memoryClickSoundAdress);
+	_menuTempSetSound = _eeprom->Read(memoryTempSetSoundAdress);
+}
+
 void SaveSettingsInEeprom()
 {
 	int saveTempUp = _eeprom->IntRead(memoryUpTempAdress);
 	int saveTempDown = _eeprom->IntRead(memoryDownTempAdress);
+	bool saveBeepClick = _eeprom->Read(memoryClickSoundAdress);
+	bool saveTempSetSound = _eeprom->Read(memoryTempSetSoundAdress);
+	
 	if(saveTempUp != _setTempUp)
 	{
 		_eeprom->IntWrite(memoryUpTempAdress,_setTempUp);
@@ -221,6 +268,14 @@ void SaveSettingsInEeprom()
 	if(saveTempDown != _setTempDown)
 	{
 		_eeprom->IntWrite(memoryDownTempAdress,_setTempDown);
+	}
+	if(saveBeepClick != _menuClickSound)
+	{
+		_eeprom->Write(memoryClickSoundAdress,_menuClickSound);
+	}
+	if(saveTempSetSound != _menuTempSetSound)
+	{
+		_eeprom->Write(memoryTempSetSoundAdress,_menuTempSetSound);
 	}
 }
 
@@ -245,7 +300,10 @@ void EncoderButtonUpdate()
 			_menu->Begin();
 		}
 		_buttonDown = false;
-		_buzzer->BuzzerOn(clickBuzzerInterval);
+		if(_menuClickSound)
+		{
+			_buzzer->BuzzerOn(clickBuzzerInterval);
+		}
 	}
 }
 
@@ -258,15 +316,24 @@ void UpdateTempVal(double& val, int delta)
 
 void CreateMenuItems()
 {
-	IMenuItem** parItemMain = new IMenuItem*[5];
-	IMenuItem* mainMenu = new MenuItem("BOTTOM HEATER:", parItemMain,5, _lcd);
+	_parItemMain = new IMenuItem*[6];
+	_parSoundItemMain = new IMenuItem*[3];
+	_mainMenu = new MenuItem("BOTTOM HEATER:", _parItemMain,6, _lcd);
+	_soundSettingMenu = new MenuItem("SOUND SETTING:", _parSoundItemMain,3, _lcd);
+	
 	//parItemMain[0] = new MenuBoolItem("ON/OFF",&_heaterOn, mainMenu, _lcd);
-	parItemMain[0] = new MenuDoubleItem("SET TEMP UP",&_setTempUp,mainMenu, _lcd);
-	parItemMain[1] = new MenuDoubleItem("SET TEMP DOWN",&_setTempDown,mainMenu, _lcd);
-	parItemMain[2] = new MenuActionItem("<<START", mainMenu,StartMenuClick);
-	parItemMain[3] = new MenuActionItem("<<STOP", mainMenu,StopMenuClick);
-	parItemMain[4] = new MenuActionItem("<<EXIT", mainMenu,ExitMenuClick);
-	_menu = new Menu(mainMenu);
+	_parItemMain[0] = new MenuDoubleItem("SET TEMP UP",&_setTempUp,_mainMenu, _lcd);
+	_parItemMain[1] = new MenuDoubleItem("SET TEMP DOWN",&_setTempDown,_mainMenu, _lcd);
+	_parItemMain[2] =  _soundSettingMenu;
+	_parItemMain[3] = new MenuActionItem("<<START", _mainMenu,StartMenuClick);
+	_parItemMain[4] = new MenuActionItem("<<STOP", _mainMenu,StopMenuClick);
+	_parItemMain[5] = new MenuActionItem("<<EXIT", _mainMenu,ExitMenuClick);
+	
+	_parSoundItemMain[0] = new MenuBoolItem("CLICK BEEP",&_menuClickSound,_soundSettingMenu,_lcd);
+	_parSoundItemMain[1] = new MenuBoolItem("TEMP SET BEEP",&_menuTempSetSound,_soundSettingMenu,_lcd);
+	_parSoundItemMain[2] = new MenuActionItem("<<EXIT", _mainMenu,ExitSoundMenuClick);
+	
+	_menu = new Menu(_mainMenu);
 	_menu->Begin();
 }
 
@@ -290,12 +357,23 @@ void StartMenuClick()
 	ExitMenuClick();
 }
 
+void ExitSoundMenuClick()
+{
+	//переход назад в предыдущее меню.
+	_menu->GoChoice();
+	//сброс индекса в меню насторек звука.
+	_soundSettingMenu->GoMain();
+}
+
 void ExitMenuClick()
 {
 	_menuActive = false;
+	_temDownBeepOn = true;
+	_temUpBeepOn = true;
+	//выход в главное меню
 	_menu->GoChoice();
+	//сброс индекса меню
 	_menu->GoMain();
-	_lcd->clear();
 	SaveSettingsInEeprom();
-	
+	_lcd->clear();
 }
