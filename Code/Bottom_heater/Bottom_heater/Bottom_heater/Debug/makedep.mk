@@ -28,6 +28,8 @@ Sketch.cpp
 
 src\libraries\AutoPID\AutoPID.cpp
 
+src\libraries\CyberLib\CyberLib.cpp
+
 src\libraries\Encoder_tmr\iarduino_Encoder_tmr.cpp
 
 src\libraries\LiquidCrystal_I2C\src\LiquidCrystal_I2C.cpp

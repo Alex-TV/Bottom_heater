@@ -55,7 +55,7 @@
       </ToolNumber>
       <ToolName xmlns="">Custom Programming Tool</ToolName>
     </custom>
-    <CustomProgrammingToolCommand>E:\instals\AVR\arduino-1.8.5\hardware\tools\avr/bin/avrdude.exe -CE:\instals\AVR\arduino-1.8.5\hardware\tools\avr/etc/avrdude.conf -v -patmega328p -carduino -PCOM4 -b115200 -D -Uflash:w:$(OutputDirectory)\$(OutputFileName).hex:i </CustomProgrammingToolCommand>
+    <CustomProgrammingToolCommand>E:\instals\AVR\arduino-1.8.5\hardware\tools\avr/bin/avrdude.exe -CE:\instals\AVR\arduino-1.8.5\hardware\tools\avr/etc/avrdude.conf -v -patmega328p -carduino -PCOM11 -b115200 -D -Uflash:w:$(OutputDirectory)\$(OutputFileName).hex:i </CustomProgrammingToolCommand>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
@@ -298,6 +298,9 @@
     <Compile Include="include\libraries\AutoPID\AutoPID.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="include\libraries\CyberLib\CyberLib.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="include\libraries\EEPROM\src\EEPROM.h">
       <SubType>compile</SubType>
     </Compile>
@@ -367,6 +370,9 @@
     <Compile Include="src\libraries\AutoPID\AutoPID.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="src\libraries\CyberLib\CyberLib.cpp">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="src\libraries\Encoder_tmr\iarduino_Encoder_tmr.cpp">
       <SubType>compile</SubType>
     </Compile>
@@ -409,6 +415,7 @@
     <Folder Include="include\" />
     <Folder Include="include\libraries\" />
     <Folder Include="include\libraries\AutoPID\" />
+    <Folder Include="include\libraries\CyberLib\" />
     <Folder Include="include\libraries\EEPROM\" />
     <Folder Include="include\libraries\EEPROM\src\" />
     <Folder Include="include\libraries\Encoder_tmr\" />
@@ -425,6 +432,7 @@
     <Folder Include="Menu" />
     <Folder Include="Extensions" />
     <Folder Include="Buzzer" />
+    <Folder Include="src\libraries\CyberLib\" />
     <Folder Include="src\libraries\Encoder_tmr\" />
     <Folder Include="src\libraries\LiquidCrystal_I2C\" />
     <Folder Include="src\libraries\LiquidCrystal_I2C\src\" />

@@ -6,7 +6,7 @@
 */
 
 #include <Arduino.h>
-#include <SimpleTimer.h>
+#include <CyberLib.h>
 #include "Dimmer.h"
 
 void DetectUp();
@@ -14,54 +14,50 @@ void DetectDown();
 void TimerInterrupt();
 
 int _tic;
-int _timerDimmerId;
-SimpleTimer* _timerDimmer;
-DimmerItem* _items;
-int* _itemValues;
-	
+DimmerItem* _itemUp;
+DimmerItem* _itemDown;
+
+int _itemUpValue =0;
+int _itemDownValue=0;
+
 // default constructor
-Dimmer::Dimmer(int zeroPin, DimmerItem* items, int* itemValues)
+Dimmer::Dimmer(int zeroPin, DimmerItem* itemUp, DimmerItem* itemDown)
 {
-	_items = items;
-	_itemValues = itemValues;
+	_itemUp = itemUp;
+	_itemDown = itemDown;
 	_zeroPin = zeroPin;
 	pinMode(zeroPin, INPUT);				// настраиваем порт на вход для отслеживания прохождения сигнала через ноль
 	attachInterrupt(0, DetectUp, FALLING);  // настроить срабатывание прерывания interrupt0 на pin 2 на низкий уровень
-	_timerDimmer = new SimpleTimer();
-	_timerDimmerId = _timerDimmer->setInterval(timerInterval,TimerInterrupt);
-	_timerDimmer->disable(_timerDimmerId);
-	//StartTimer1(TimerInterrupt, 40);        // время для одного разряда ШИМ
-	//StopTimer1();                           // остановить таймер
+	StartTimer1(TimerInterrupt, timerInterval);        // время для одного разряда ШИМ
+	StopTimer1();                            // остановить таймер
 } //Dimmer
 
 
-void Dimmer::UpdateItemValue(int* itemValues)
+void Dimmer::UpdateItemValue(int itemUpValue, int itemDownValue)
 {
-	_itemValues = itemValues;
-}
-
-void Dimmer::Update()
-{
-	_timerDimmer->run();
+	_itemUpValue = itemUpValue;
+	_itemDownValue = itemDownValue;
 }
 
 //----------------------ОБРАБОТЧИКИ ПРЕРЫВАНИЙ--------------------------
 void TimerInterrupt() // прерывания таймера срабатывают каждые 40 мкс
 {
 	_tic++;                       // счетчик
-	for(int i=0; i< sizeof(_items); i++)
-	{	 if (_tic <= _itemValues[i]) continue;	    // если настало время включать ток
-		_items[i].UpdateValue(_itemValues[i]);
+
+	if (_tic >255- _itemUpValue) 	    // если настало время включать ток
+	{
+		_itemUp->UpdateValue(1);
 	}
-	//digitalWrite(dimPin, 1);   // врубить ток
+	if(_tic>255- _itemDownValue)
+	{
+		_itemDown->UpdateValue(1);
+	}
 }
 
 void DetectUp()	 // обработка внешнего прерывания на пересекание нуля снизу
 {
 	_tic = 0;                                 // обнулить счетчик
-	_timerDimmer->enable(_timerDimmerId);
-	_timerDimmer->restartTimer(_timerDimmerId); // перезапустить таймер
-	//ResumeTimer1();
+	ResumeTimer1();
 	attachInterrupt(0, DetectDown, RISING);  // перенастроить прерывание
 }
 
@@ -69,13 +65,11 @@ void DetectUp()	 // обработка внешнего прерывания на пересекание нуля снизу
 void DetectDown() // обработка внешнего прерывания на пересекание нуля сверху
 {
 	_tic = 0;                                 // обнулить счетчик
-	_timerDimmer->disable(_timerDimmerId);// остановить таймерd
-	//StopTimer1();
-	for(int i=0; i< sizeof(_items); i++)
-	{
-		_items[i].UpdateValue(0);  // вырубить ток
-	}
-	//digitalWrite(dimPin, 0);
+	StopTimer1();
+
+	_itemUp->UpdateValue(0);  // вырубить ток
+	_itemDown->UpdateValue(0);  // вырубить ток
+
 	attachInterrupt(0, DetectUp, FALLING);   // перенастроить прерывание
 }
 //----------------------ОБРАБОТЧИКИ ПРЕРЫВАНИЙ--------------------------

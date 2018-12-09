@@ -105,13 +105,12 @@ bool _temUpBeepOn = true;
 bool _temDownBeepOn = true;
 bool _menuClickSound = true;
 bool _menuTempSetSound = true;
+bool _buttonDown = false;
 
 void setup() {
 	Serial.begin(9600);
 	//инициализация димира
-	DimmerItem dimmerItems[2]{DimmerItem(dimUpPin),DimmerItem(dimDownPin)};
-	int itemValues[2]{0,0};
-	_dimmer = new Dimmer(zeroPin,dimmerItems,itemValues);
+	_dimmer = new Dimmer(zeroPin,new DimmerItem(dimUpPin),new DimmerItem(dimDownPin));
 	//инициализация термометра
 	_thermometer = new Thermometer(therPinDO,therPinCS,therPinCLK);
 	//инициализация дисплея
@@ -125,12 +124,13 @@ void setup() {
 	pinMode(encoderButtonPin, INPUT);
 	//инициализация pid
 	_pidUp = new PID(&_tempUp, &_outputUpVal,&_setTempUp, KP, KI, KD, DIRECT);
+	_pidUp->SetOutputLimits(OUTPUT_MIN,OUTPUT_MAX);
 	_pidUp->SetMode(AUTOMATIC);
-	_pidDown = new PID(&_tempDown, &_outputDownVal,&_setTempDown,  2, 5, 1, DIRECT);
+	_pidDown = new PID(&_tempDown, &_outputDownVal,&_setTempDown,  KP, KI, KD, DIRECT);
+	_pidDown->SetOutputLimits(OUTPUT_MIN,OUTPUT_MAX);
 	_pidDown->SetMode(AUTOMATIC);
 	//утсановленая температура	(должно устанавливатся в настройках)
 	_eeprom = new EepromExtension();
-	/*_eeprom->Clear();*/
 	ReadSettingsInEeprom();
 	//инициализация меню
 	CreateMenuItems();
@@ -140,13 +140,11 @@ void setup() {
 	_timerUpdateTemperatureId =_timerHeating->setInterval(timerUpdateTemperatureInterval,TimerUpdateTemperature);
 	//инициализация бузера
 	_buzzer = new Buzzer(buzerPin);
-	
 }
 
 void loop()
 {
 	_timerHeating->run();
-	_dimmer->Update();
 	_buzzer->Run();
 	HeatingUpdate();
 	EncoderUpdate();
@@ -210,13 +208,11 @@ void HeatingUpdate()
 		{
 			_pidDown->Compute();
 		}
-		int itemValues[2]{_outputUpVal,_outputDownVal};
-		_dimmer->UpdateItemValue(itemValues);
+		_dimmer->UpdateItemValue(_outputUpVal, _outputDownVal);
 	}
 	else
 	{
-		int itemValues[2]{0,0};
-		_dimmer->UpdateItemValue(itemValues);
+		_dimmer->UpdateItemValue(0,0);
 	}
 }
 
@@ -242,6 +238,32 @@ void EncoderUpdate()
 		else if(enc == encRIGHT)
 		{
 			_menu->GoDown();
+		}
+	}
+}
+
+void EncoderButtonUpdate()
+{
+	if(!digitalRead(encoderButtonPin))
+	{
+		_buttonDown = true;
+		return;
+	}
+	if(_buttonDown)
+	{
+		if(_menuActive)
+		{
+			_menu->GoChoice();
+		}
+		else
+		{
+			_menuActive = true;
+			_menu->Begin();
+		}
+		_buttonDown = false;
+		if(_menuClickSound)
+		{
+			_buzzer->BuzzerOn(clickBuzzerInterval);
 		}
 	}
 }
@@ -276,34 +298,6 @@ void SaveSettingsInEeprom()
 	if(saveTempSetSound != _menuTempSetSound)
 	{
 		_eeprom->Write(memoryTempSetSoundAdress,_menuTempSetSound);
-	}
-}
-
-bool _buttonDown = false;
-
-void EncoderButtonUpdate()
-{
-	if(!digitalRead(encoderButtonPin))
-	{
-		_buttonDown = true;
-		return;
-	}
-	if(_buttonDown)
-	{
-		if(_menuActive)
-		{
-			_menu->GoChoice();
-		}
-		else
-		{
-			_menuActive = true;
-			_menu->Begin();
-		}
-		_buttonDown = false;
-		if(_menuClickSound)
-		{
-			_buzzer->BuzzerOn(clickBuzzerInterval);
-		}
 	}
 }
 

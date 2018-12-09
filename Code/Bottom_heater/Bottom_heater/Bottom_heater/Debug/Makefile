@@ -37,6 +37,7 @@ SUBDIRS :=  \
 ../include/ \
 ../include/libraries/ \
 ../include/libraries/AutoPID/ \
+../include/libraries/CyberLib/ \
 ../include/libraries/EEPROM/ \
 ../include/libraries/EEPROM/src/ \
 ../include/libraries/Encoder_tmr/ \
@@ -53,6 +54,7 @@ SUBDIRS :=  \
 ../Menu \
 ../Extensions \
 ../Buzzer \
+../src/libraries/CyberLib/ \
 ../src/libraries/Encoder_tmr/ \
 ../src/libraries/LiquidCrystal_I2C/ \
 ../src/libraries/LiquidCrystal_I2C/src/ \
@@ -83,6 +85,7 @@ C_SRCS +=  \
 ../Menu/MenuItem.cpp \
 ../Sketch.cpp \
 ../src/libraries/AutoPID/AutoPID.cpp \
+../src/libraries/CyberLib/CyberLib.cpp \
 ../src/libraries/Encoder_tmr/iarduino_Encoder_tmr.cpp \
 ../src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.cpp \
 ../src/libraries/MAX6675/max6675.cpp \
@@ -113,6 +116,7 @@ Menu/MenuIntItem.o \
 Menu/MenuItem.o \
 Sketch.o \
 src/libraries/AutoPID/AutoPID.o \
+src/libraries/CyberLib/CyberLib.o \
 src/libraries/Encoder_tmr/iarduino_Encoder_tmr.o \
 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o \
 src/libraries/MAX6675/max6675.o \
@@ -136,6 +140,7 @@ Menu/MenuIntItem.o \
 Menu/MenuItem.o \
 Sketch.o \
 src/libraries/AutoPID/AutoPID.o \
+src/libraries/CyberLib/CyberLib.o \
 src/libraries/Encoder_tmr/iarduino_Encoder_tmr.o \
 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.o \
 src/libraries/MAX6675/max6675.o \
@@ -159,6 +164,7 @@ Menu/MenuIntItem.d \
 Menu/MenuItem.d \
 Sketch.d \
 src/libraries/AutoPID/AutoPID.d \
+src/libraries/CyberLib/CyberLib.d \
 src/libraries/Encoder_tmr/iarduino_Encoder_tmr.d \
 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.d \
 src/libraries/MAX6675/max6675.d \
@@ -182,6 +188,7 @@ Menu/MenuIntItem.d \
 Menu/MenuItem.d \
 Sketch.d \
 src/libraries/AutoPID/AutoPID.d \
+src/libraries/CyberLib/CyberLib.d \
 src/libraries/Encoder_tmr/iarduino_Encoder_tmr.d \
 src/libraries/LiquidCrystal_I2C/src/LiquidCrystal_I2C.d \
 src/libraries/MAX6675/max6675.d \
@@ -291,6 +298,13 @@ Menu/MenuItem.o: ../Menu/MenuItem.cpp
 	
 
 src/libraries/AutoPID/AutoPID.o: ../src/libraries/AutoPID/AutoPID.cpp
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\include" -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\eightanaloginputs" -I"..\\..\ArduinoCore\include\variants\standard" -I"..\include\libraries\LiquidCrystal\examples\Blink\__vm" -I"..\include\libraries\LiquidCrystal\examples\CustomCharacter\__vm" -I"..\include\libraries\LiquidCrystal\examples\Display\Release" -I"..\include\libraries\LiquidCrystal\examples\Display\__vm" -I"../include/libraries/LiquidCrystal_I2C/src" -I"..\include\libraries\MAX6675" -I"../include/libraries/CyberLib" -I"..\include\libraries\AutoPID" -I"..\include\libraries\Wire\src" -I"..\include\libraries\Wire\src\utility" -I"..\include\libraries\EEPROM\src" -I"../include/libraries/RotaryEncoder" -I"../include/libraries/MyMenu" -I"../include/libraries/SimpleTimer/src" -I"../include/libraries/Encoder_tmr" -I"../include/libraries/PID"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -w -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega328p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+src/libraries/CyberLib/CyberLib.o: ../src/libraries/CyberLib/CyberLib.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\include" -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\eightanaloginputs" -I"..\\..\ArduinoCore\include\variants\standard" -I"..\include\libraries\LiquidCrystal\examples\Blink\__vm" -I"..\include\libraries\LiquidCrystal\examples\CustomCharacter\__vm" -I"..\include\libraries\LiquidCrystal\examples\Display\Release" -I"..\include\libraries\LiquidCrystal\examples\Display\__vm" -I"../include/libraries/LiquidCrystal_I2C/src" -I"..\include\libraries\MAX6675" -I"../include/libraries/CyberLib" -I"..\include\libraries\AutoPID" -I"..\include\libraries\Wire\src" -I"..\include\libraries\Wire\src\utility" -I"..\include\libraries\EEPROM\src" -I"../include/libraries/RotaryEncoder" -I"../include/libraries/MyMenu" -I"../include/libraries/SimpleTimer/src" -I"../include/libraries/Encoder_tmr" -I"../include/libraries/PID"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -w -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega328p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 

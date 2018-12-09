@@ -17,16 +17,11 @@ class Dimmer
 	protected:
 	private:
 	int _zeroPin;
-	
-	
-
-
 	//functions
 	public:
-	Dimmer(int, DimmerItem*, int*);
+	Dimmer(int, DimmerItem*, DimmerItem*);
 	~Dimmer();
-	void UpdateItemValue(int*);
-	void Update();
+	void UpdateItemValue(int, int);
 	protected:
 	private:
 	Dimmer( const Dimmer &c );

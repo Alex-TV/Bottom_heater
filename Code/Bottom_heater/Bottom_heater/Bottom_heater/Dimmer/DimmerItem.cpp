@@ -17,7 +17,7 @@ DimmerItem::DimmerItem(int dimPin)
 
 void DimmerItem::UpdateValue(int dimVal)
 {
-	digitalWrite(_dimPin, 255-dimVal);
+	digitalWrite(_dimPin, dimVal);
 }
 // default destructor
 DimmerItem::~DimmerItem()
