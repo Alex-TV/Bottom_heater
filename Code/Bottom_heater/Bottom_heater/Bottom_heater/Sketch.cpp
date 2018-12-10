@@ -146,7 +146,6 @@ void loop()
 {
 	_timerHeating->run();
 	_buzzer->Run();
-	HeatingUpdate();
 	EncoderUpdate();
 	EncoderButtonUpdate();
 }
@@ -174,6 +173,7 @@ void TimerUpdateTemperature()
 	_timerHeating->restartTimer(_timerUpdateTemperatureId);
 	_tempDown = _thermometer->Read();
 	_tempUp = 0;
+	HeatingUpdate();
 	CheckTempBeep();
 	DisplayUpdate();
 }
