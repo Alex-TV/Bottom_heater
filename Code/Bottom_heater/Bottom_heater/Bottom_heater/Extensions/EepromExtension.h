@@ -4,7 +4,7 @@
 * Created: 02.12.2018 19:26:49
 * Author: koval
 */
-
+#include "EEPROMWavgat.h"
 
 #ifndef __EEPROMEXTENSION_H__
 #define __EEPROMEXTENSION_H__
@@ -16,7 +16,7 @@ class EepromExtension
 	public:
 	protected:
 	private:
-
+	EEPROMWavgat* _eepromWavgat;
 	//functions
 	public:
 	EepromExtension();

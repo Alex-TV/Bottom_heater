@@ -17,13 +17,13 @@ src/libraries/Wire/src/utility/twi.d src/libraries/Wire/src/utility/twi.o: \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\compat\twi.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h \
- ..\\..\ArduinoCore\include\core/Arduino.h \
- c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdbool.h \
+ ..\\..\ArduinoCoreWavgat\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\pgmspace.h \
- ..\\..\ArduinoCore\include\core/binary.h \
- ..\\..\ArduinoCore\include\variants\eightanaloginputs/pins_arduino.h \
- ..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h \
+ ..\\..\ArduinoCoreWavgat\include\core/binary.h \
+ ..\\..\ArduinoCoreWavgat\include\variants\eightanaloginputs/pins_arduino.h \
+ ..\\..\ArduinoCoreWavgat\include\core/lgtx8e.h \
+ ..\\..\ArduinoCoreWavgat\include\variants\eightanaloginputs/../standard/pins_arduino.h \
  ..\include\libraries\Wire\src\utility/twi.h
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
@@ -60,18 +60,18 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h:
 
-..\\..\ArduinoCore\include\core/Arduino.h:
-
-c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdbool.h:
+..\\..\ArduinoCoreWavgat\include\core/Arduino.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\pgmspace.h:
 
-..\\..\ArduinoCore\include\core/binary.h:
+..\\..\ArduinoCoreWavgat\include\core/binary.h:
 
-..\\..\ArduinoCore\include\variants\eightanaloginputs/pins_arduino.h:
+..\\..\ArduinoCoreWavgat\include\variants\eightanaloginputs/pins_arduino.h:
 
-..\\..\ArduinoCore\include\variants\eightanaloginputs/../standard/pins_arduino.h:
+..\\..\ArduinoCoreWavgat\include\core/lgtx8e.h:
+
+..\\..\ArduinoCoreWavgat\include\variants\eightanaloginputs/../standard/pins_arduino.h:
 
 ..\include\libraries\Wire\src\utility/twi.h:

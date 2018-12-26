@@ -7,10 +7,14 @@
 #include "Buzzer.h"
 
 void BeepTimerInterrupt();
+void FrequencyTimerInterrupt();
 
 int _buzzerPin;
 SimpleTimer* _timer;
 int _timerId;
+int _frequencyTimerId;
+bool _heightBeep = true;
+bool _beepStart = false;
 // default constructor
 Buzzer::Buzzer(int pin)
 {
@@ -18,6 +22,7 @@ Buzzer::Buzzer(int pin)
 	_buzzerPin = pin;
 	_timer = new SimpleTimer();
 	_timerId =_timer->setInterval(0, BeepTimerInterrupt);
+	_frequencyTimerId =_timer->setInterval(1, FrequencyTimerInterrupt);
 	_timer->disable(_timerId);
 	pinMode(pin, OUTPUT);
 } //Buzzer
@@ -37,11 +42,19 @@ void Buzzer::BuzzerOn(long beepTime)
 	_timer->enable(_timerId);
 	_timer->updateInterval(_timerId, beepTime);
 	_timer->restartTimer(_timerId);
-	analogWrite(_buzzerPin,127);
+	_beepStart = true;
 }
 
 void BeepTimerInterrupt()
 {
 	_timer->disable(_timerId);
-	analogWrite(_buzzerPin,0);
+	_beepStart = false;
+}
+
+void FrequencyTimerInterrupt()
+{
+	_timer->restartTimer(_frequencyTimerId);
+	if(!_beepStart && !_heightBeep) return;
+	_heightBeep = !_heightBeep;
+	digitalWrite(_buzzerPin,_heightBeep);
 }

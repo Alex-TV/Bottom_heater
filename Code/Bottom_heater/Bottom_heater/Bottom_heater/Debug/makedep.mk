@@ -10,6 +10,8 @@ Dimmer\DimmerItem.cpp
 
 Display\Display16x2.cpp
 
+Extensions\EEPROMWavgat.cpp
+
 Extensions\EepromExtension.cpp
 
 Menu\Menu.cpp

@@ -1,5 +1,5 @@
-src/libraries/PID/PID_v1.d src/libraries/PID/PID_v1.o: \
- ../src/libraries/PID/PID_v1.cpp \
+Extensions/EEPROMWavgat.d Extensions/EEPROMWavgat.o: \
+ ../Extensions/EEPROMWavgat.cpp \
  ..\\..\ArduinoCoreWavgat\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
@@ -32,7 +32,7 @@ src/libraries/PID/PID_v1.d src/libraries/PID/PID_v1.o: \
  ..\\..\ArduinoCoreWavgat\include\variants\eightanaloginputs/pins_arduino.h \
  ..\\..\ArduinoCoreWavgat\include\core/lgtx8e.h \
  ..\\..\ArduinoCoreWavgat\include\variants\eightanaloginputs/../standard/pins_arduino.h \
- ../include/libraries/PID/PID_v1.h
+ ../Extensions/EEPROMWavgat.h
 
 ..\\..\ArduinoCoreWavgat\include\core/Arduino.h:
 
@@ -98,4 +98,4 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\
 
 ..\\..\ArduinoCoreWavgat\include\variants\eightanaloginputs/../standard/pins_arduino.h:
 
-../include/libraries/PID/PID_v1.h:
+../Extensions/EEPROMWavgat.h:

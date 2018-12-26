@@ -27,7 +27,7 @@
 #define encoderBPin 6
 #define encoderButtonPin 7
 
-#define buzerPin 9
+#define buzerPin D9
 
 #define therPinDO 10
 #define therPinCS 11
@@ -70,6 +70,7 @@ void StopMenuClick();
 void CheckTempBeep();
 void ExitSoundMenuClick();
 void ReadSettingsInEeprom();
+void EncoderButtonUp();
 
 Dimmer* _dimmer;
 Thermometer* _thermometer;
@@ -108,7 +109,7 @@ bool _menuTempSetSound = true;
 bool _buttonDown = false;
 
 void setup() {
-	Serial.begin(9600);
+	//Serial.begin(9600);
 	//инициализация димира
 	_dimmer = new Dimmer(zeroPin,new DimmerItem(dimUpPin),new DimmerItem(dimDownPin));
 	//инициализация термометра
@@ -129,9 +130,6 @@ void setup() {
 	_pidDown = new PID(&_tempDown, &_outputDownVal,&_setTempDown,  KP, KI, KD, DIRECT);
 	_pidDown->SetOutputLimits(OUTPUT_MIN,OUTPUT_MAX);
 	_pidDown->SetMode(AUTOMATIC);
-	//утсановленая температура	(должно устанавливатся в настройках)
-	_eeprom = new EepromExtension();
-	ReadSettingsInEeprom();
 	//инициализация меню
 	CreateMenuItems();
 	//инициализация таймера
@@ -140,6 +138,10 @@ void setup() {
 	_timerUpdateTemperatureId =_timerHeating->setInterval(timerUpdateTemperatureInterval,TimerUpdateTemperature);
 	//инициализация бузера
 	_buzzer = new Buzzer(buzerPin);
+	
+	//утсановленая температура	(должно устанавливатся в настройках)
+	_eeprom = new EepromExtension();
+	ReadSettingsInEeprom();
 }
 
 void loop()
@@ -251,20 +253,26 @@ void EncoderButtonUpdate()
 	}
 	if(_buttonDown)
 	{
-		if(_menuActive)
-		{
-			_menu->GoChoice();
-		}
-		else
-		{
-			_menuActive = true;
-			_menu->Begin();
-		}
 		_buttonDown = false;
-		if(_menuClickSound)
-		{
-			_buzzer->BuzzerOn(clickBuzzerInterval);
-		}
+		EncoderButtonUp();
+	}
+}
+
+void EncoderButtonUp()
+{
+	
+	if(_menuActive)
+	{
+		_menu->GoChoice();
+	}
+	else
+	{
+		_menuActive = true;
+		_menu->Begin();
+	}
+	if(_menuClickSound)
+	{
+		_buzzer->BuzzerOn(clickBuzzerInterval);
 	}
 }
 
@@ -280,8 +288,8 @@ void SaveSettingsInEeprom()
 {
 	int saveTempUp = _eeprom->IntRead(memoryUpTempAdress);
 	int saveTempDown = _eeprom->IntRead(memoryDownTempAdress);
-	bool saveBeepClick = _eeprom->Read(memoryClickSoundAdress);
-	bool saveTempSetSound = _eeprom->Read(memoryTempSetSoundAdress);
+	int saveMenuClickSound = _eeprom->IntRead(memoryClickSoundAdress);
+	int saveMenuTempSetSound = _eeprom->IntRead(memoryTempSetSoundAdress);
 	
 	if(saveTempUp != _setTempUp)
 	{
@@ -291,11 +299,11 @@ void SaveSettingsInEeprom()
 	{
 		_eeprom->IntWrite(memoryDownTempAdress,_setTempDown);
 	}
-	if(saveBeepClick != _menuClickSound)
+	if(saveMenuClickSound!=_menuClickSound)
 	{
 		_eeprom->Write(memoryClickSoundAdress,_menuClickSound);
 	}
-	if(saveTempSetSound != _menuTempSetSound)
+	if(saveMenuTempSetSound != _menuTempSetSound)
 	{
 		_eeprom->Write(memoryTempSetSoundAdress,_menuTempSetSound);
 	}

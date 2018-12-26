@@ -8,11 +8,11 @@ src/libraries/Wire/src/Wire.d src/libraries/Wire/src/Wire.o: \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
  ..\include\libraries\Wire\src/utility/twi.h \
  ..\include\libraries\Wire\src/Wire.h \
- ..\\..\ArduinoCore\include\core/Stream.h \
- ..\\..\ArduinoCore\include\core/Print.h \
+ ..\\..\ArduinoCoreWavgat\include\core/Stream.h \
+ ..\\..\ArduinoCoreWavgat\include\core/Print.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdarg.h \
- ..\\..\ArduinoCore\include\core/WString.h \
+ ..\\..\ArduinoCoreWavgat\include\core/WString.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\ctype.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\pgmspace.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
@@ -23,7 +23,8 @@ src/libraries/Wire/src/Wire.d src/libraries/Wire/src/Wire.o: \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
- ..\\..\ArduinoCore\include\core/Printable.h
+ ..\\..\ArduinoCoreWavgat\include\core/Printable.h \
+ ..\\..\ArduinoCoreWavgat\include\core/new.h
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
@@ -41,15 +42,15 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\include\libraries\Wire\src/Wire.h:
 
-..\\..\ArduinoCore\include\core/Stream.h:
+..\\..\ArduinoCoreWavgat\include\core/Stream.h:
 
-..\\..\ArduinoCore\include\core/Print.h:
+..\\..\ArduinoCoreWavgat\include\core/Print.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdarg.h:
 
-..\\..\ArduinoCore\include\core/WString.h:
+..\\..\ArduinoCoreWavgat\include\core/WString.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\ctype.h:
 
@@ -71,4 +72,6 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
 
-..\\..\ArduinoCore\include\core/Printable.h:
+..\\..\ArduinoCoreWavgat\include\core/Printable.h:
+
+..\\..\ArduinoCoreWavgat\include\core/new.h:
