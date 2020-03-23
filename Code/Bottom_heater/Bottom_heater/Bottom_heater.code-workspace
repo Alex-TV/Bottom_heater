@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "name": "Bottom_heater",
+            "path": "R:\\AVR\\arduino\\Bottom_heater\\Code\\Bottom_heater\\Bottom_heater"
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "io.h": "c",
+            "twi.h": "c",
+            "inttypes.h": "c"
+        }
+    }
+}
